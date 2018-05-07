@@ -1,7 +1,11 @@
 <template>
-  <div>
-    <navigation />
-    <nuxt/>
+  <div class="wrapper">
+    <header class="header"><navigation/></header>
+    <aside class="sidebar">Sidebar</aside>
+    <article class="content">
+      <nuxt/>
+    </article>
+    <footer class="footer">My footer</footer>
   </div>
 </template>
 
@@ -16,5 +20,75 @@ export default {
 </script>
 
 <style>
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  font-family: "Open Sans", "sans-serif";
+  background-color: #fff;
+  background-image: url("~/assets/img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: #444;
+}
+
+h1,
+p {
+  margin: 0 0 1em 0;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 20px;
+  display: grid;
+  grid-gap: 10px;
+}
+
+@media screen and (min-width: 500px) {
+  /* no grid support? */
+  .sidebar {
+    float: left;
+    width: 19.1489%;
+  }
+
+  .content {
+    float: right;
+    width: 79.7872%;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  .header,
+  .footer {
+    grid-column: 1 / -1;
+    /* needed for the floated layout */
+    clear: both;
+  }
+}
+
+.wrapper > * {
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  /* needed for the floated layout*/
+  margin-bottom: 10px;
+}
+
+/* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
+@supports (display: grid) {
+  .wrapper > * {
+    width: auto;
+    margin: 0;
+  }
+}
 </style>
+
+

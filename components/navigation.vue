@@ -1,5 +1,5 @@
 <template>
-  <nav :class="{ 'active' : (page === 'index') }">
+  <nav>
     <ul>
       <nuxt-link exact to="/"><li>Home</li></nuxt-link>
       <nuxt-link to="/about"><li>About Me</li></nuxt-link>
