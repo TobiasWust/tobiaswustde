@@ -1,6 +1,6 @@
 <template>
 <div>
-  <h1>Hi, ich bin Tobias Wust</h1>
+  <h1>Hi, ich bin Tobias Wust {{ page }}</h1>
   <p>Ich mache
     <ul>
       <li>Websites</li>
@@ -13,6 +13,11 @@
 </template>
 
 <script>
+import { mapState } from "vuex";
+
+export default {
+  computed: mapState(["page"])
+};
 </script>
 
 <style scoped>
@@ -25,7 +30,6 @@ ul {
 }
 
 li {
-  display: inline;
   list-style: none;
 }
 </style>
