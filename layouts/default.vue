@@ -1,9 +1,9 @@
 <template>
   <div class="wrapper">
     <header class="header"><navigation/></header>
-    <article class="content">
-      <nuxt/>
-    </article>
+      <article class="content">      
+          <nuxt/>
+      </article>
     <footer class="footer">My footer</footer>
   </div>
 </template>
@@ -12,6 +12,11 @@
 import navigation from "~/components/navigation.vue";
 
 export default {
+  data() {
+    return {
+      show: true
+    };
+  },
   components: {
     navigation
   }
@@ -19,6 +24,17 @@ export default {
 </script>
 
 <style>
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.3s ease;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
 *,
 *:before,
 *:after {

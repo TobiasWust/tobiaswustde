@@ -1,13 +1,12 @@
 <template>
   <div>
-
+    <h1>Blog</h1>
+    <p>Hier gibt es bald einen coolen Blog</p>
   </div>
 </template>
 
 <script>
-export default {};
 </script>
 
 <style scoped>
-
 </style>
