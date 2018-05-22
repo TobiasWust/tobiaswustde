@@ -1,7 +1,6 @@
 <template>
   <div class="wrapper">
     <header class="header"><navigation/></header>
-    <aside class="sidebar">Sidebar</aside>
     <article class="content">
       <nuxt/>
     </article>
@@ -30,10 +29,10 @@ body {
   margin: 0;
   font-family: "Open Sans", "sans-serif";
   background-color: #fff;
-  background-image: url("~/assets/img/background.jpg");
+  /* background-image: url("~/assets/img/background.jpg"); */
   background-repeat: no-repeat;
   background-size: 100% auto;
-  color: #444;
+  background-color: #444;
 }
 
 h1,
@@ -46,31 +45,6 @@ p {
   margin: 0 20px;
   display: grid;
   grid-gap: 10px;
-}
-
-@media screen and (min-width: 500px) {
-  /* no grid support? */
-  .sidebar {
-    float: left;
-    width: 19.1489%;
-  }
-
-  .content {
-    float: right;
-    width: 79.7872%;
-  }
-
-  .wrapper {
-    margin: 0 auto;
-    grid-template-columns: 1fr 3fr;
-  }
-
-  .header,
-  .footer {
-    grid-column: 1 / -1;
-    /* needed for the floated layout */
-    clear: both;
-  }
 }
 
 .wrapper > * {
