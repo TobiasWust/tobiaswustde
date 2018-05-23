@@ -1,11 +1,11 @@
 <template>
   <nav>
     <ul>
-      <nuxt-link exact to="/"><li>Home</li></nuxt-link>
+      <nuxt-link exact to="/"><li :class="{ 'active' : (page === 'index') }">Home</li></nuxt-link>
       <nuxt-link to="/about"><li :class="{ 'active' : (page === 'about') }">Über Mich</li></nuxt-link>
-      <nuxt-link to="/blog"><li>Blog</li></nuxt-link>
-      <nuxt-link to="/offer"><li>Angebot</li></nuxt-link>
-      <nuxt-link to="/contact"><li>Kontakt</li></nuxt-link>
+      <nuxt-link to="/blog"><li :class="{ 'active' : (page === 'blog') }">Blog</li></nuxt-link>
+      <nuxt-link to="/offer"><li :class="{ 'active' : (page === 'offer') }">Angebot</li></nuxt-link>
+      <nuxt-link to="/contact"><li :class="{ 'active' : (page === 'contact') }">Kontakt</li></nuxt-link>
     </ul>    
   </nav>
 </template>
@@ -20,7 +20,7 @@ export default {
 
 <style scoped>
 .active {
-  color: blue;
+  color: orange;
 }
 a {
   text-decoration: none;

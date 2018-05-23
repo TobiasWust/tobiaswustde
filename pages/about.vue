@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>test</h1>
+    <h1>Über Mich</h1>
   </div>
 </template>
 
@@ -10,6 +10,6 @@ export default {};
 
 <style scoped>
 h1 {
-  color: red;
+  color: #fff;
 }
 </style>

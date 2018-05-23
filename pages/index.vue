@@ -13,18 +13,10 @@
 </template>
 
 <script>
-import { mapState } from "vuex";
-
-export default {
-  computed: mapState(["page"])
-};
+export default {};
 </script>
 
 <style scoped>
-div {
-  color: #ddd;
-}
-
 ul {
   background-color: orange;
 }

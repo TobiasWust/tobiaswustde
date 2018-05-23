@@ -24,6 +24,12 @@ export default {
 </script>
 
 <style>
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .page-enter-active,
 .page-leave-active {
   transition: all 0.3s ease;
