@@ -4,12 +4,13 @@
       <article class="content">      
           <nuxt/>
       </article>
-    <footer class="footer">My footer</footer>
+    <footer class="footer"><wu_footer/></footer>
   </div>
 </template>
 
 <script>
 import navigation from "~/components/navigation.vue";
+import wu_footer from "~/components/wu_footer.vue";
 import VueMarkdown from "vue-markdown";
 
 export default {
