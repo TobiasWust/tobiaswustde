@@ -1,11 +1,11 @@
 <template>
   <nav>
     <ul>
-      <li :class="{ 'active' : (page === 'index') }"><nuxt-link exact to="/">Home</nuxt-link></li>
-      <li :class="{ 'active' : (page === 'about') }"><nuxt-link to="/about">Über Mich</nuxt-link></li>
-      <li :class="{ 'active' : (page === 'blog') }"><nuxt-link to="/blog">Blog</nuxt-link></li>
-      <li :class="{ 'active' : (page === 'offer') }"><nuxt-link to="/offer">Angebot</nuxt-link></li>
-      <li :class="{ 'active' : (page === 'contact') }"><nuxt-link to="/contact">Kontakt</nuxt-link></li>
+      <li><nuxt-link exact to="/">Home</nuxt-link></li>
+      <li><nuxt-link to="/about">Über Mich</nuxt-link></li>
+      <li><nuxt-link to="/blog">Blog</nuxt-link></li>
+      <li><nuxt-link to="/offer">Angebot</nuxt-link></li>
+      <li><nuxt-link to="/contact">Kontakt</nuxt-link></li>
     </ul>    
   </nav>
 </template>
@@ -15,11 +15,12 @@ import { mapState } from "vuex";
 
 export default {
   computed: mapState(["page"])
+  //  :class="{ 'active' : (page === 'index') }"
 };
 </script>
 
 <style scoped>
-.active {
+.nuxt-link-active {
   color: orange;
 }
 a {

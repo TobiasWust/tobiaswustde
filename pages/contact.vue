@@ -7,7 +7,7 @@
       <label>Name
       <input name="name" type="text"></label>
       <label>Text*
-      <textarea name="message" /></label>
+      <textarea name="message" required /></label>
       <button type="submit">Senden</button>
     </form>
   </div>

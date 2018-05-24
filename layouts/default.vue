@@ -54,7 +54,6 @@ body {
 body {
   margin: 0;
   font-family: "Open Sans", "sans-serif";
-  background-color: #fff;
   /* background-image: url("~/assets/img/background.jpg"); */
   background-repeat: no-repeat;
   background-size: 100% auto;
