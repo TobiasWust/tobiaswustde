@@ -1,11 +1,11 @@
 <template>
   <nav>
     <ul>
-      <nuxt-link exact to="/"><li :class="{ 'active' : (page === 'index') }">Home</li></nuxt-link>
-      <nuxt-link to="/about"><li :class="{ 'active' : (page === 'about') }">Über Mich</li></nuxt-link>
-      <nuxt-link to="/blog"><li :class="{ 'active' : (page === 'blog') }">Blog</li></nuxt-link>
-      <nuxt-link to="/offer"><li :class="{ 'active' : (page === 'offer') }">Angebot</li></nuxt-link>
-      <nuxt-link to="/contact"><li :class="{ 'active' : (page === 'contact') }">Kontakt</li></nuxt-link>
+      <li :class="{ 'active' : (page === 'index') }"><nuxt-link exact to="/">Home</nuxt-link></li>
+      <li :class="{ 'active' : (page === 'about') }"><nuxt-link to="/about">Über Mich</nuxt-link></li>
+      <li :class="{ 'active' : (page === 'blog') }"><nuxt-link to="/blog">Blog</nuxt-link></li>
+      <li :class="{ 'active' : (page === 'offer') }"><nuxt-link to="/offer">Angebot</nuxt-link></li>
+      <li :class="{ 'active' : (page === 'contact') }"><nuxt-link to="/contact">Kontakt</nuxt-link></li>
     </ul>    
   </nav>
 </template>
@@ -24,6 +24,7 @@ export default {
 }
 a {
   text-decoration: none;
+  color: white;
 }
 li {
   transition: all 1s ease;
