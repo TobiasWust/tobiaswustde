@@ -26,10 +26,9 @@ export default {
 a {
   text-decoration: none;
   color: white;
+  transition: all 1s ease;
 }
 li {
-  transition: all 1s ease;
-  color: white;
   list-style: none;
   display: inline;
   padding-right: 1em;
