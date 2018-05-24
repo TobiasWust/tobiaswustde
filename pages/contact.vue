@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Kontakt</h1>
-    <form name="contact" method="POST" data-netlify="true">
+    <form name="contact" netlify>
       <label>Email*
       <input name="email" type="email" required /></label>
       <label>Name
