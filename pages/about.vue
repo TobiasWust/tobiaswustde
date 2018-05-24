@@ -1,9 +1,6 @@
 <template>
   <div>
     <h1>Über Mich</h1>
-    <vue-markdown>
-      ## test
-    </vue-markdown>
     hallo
     hm
   </div>
