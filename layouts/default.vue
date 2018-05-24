@@ -10,6 +10,7 @@
 
 <script>
 import navigation from "~/components/navigation.vue";
+import VueMarkdown from "vue-markdown";
 
 export default {
   data() {
@@ -18,7 +19,8 @@ export default {
     };
   },
   components: {
-    navigation
+    navigation,
+    VueMarkdown
   }
 };
 </script>

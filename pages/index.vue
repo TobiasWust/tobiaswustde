@@ -1,6 +1,6 @@
 <template>
 <div>
-  <h1>Hi, ich bin Tobias Wust {{ page }}</h1>
+  <h1>Hi, ich bin Tobias Wust</h1>
   <p>Ich mache
     <ul>
       <li>Websites</li>

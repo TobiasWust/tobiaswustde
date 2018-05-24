@@ -15,7 +15,7 @@ module.exports = {
   },
   /*pages for transition*/
   router: {
-    middleware: 'pages'
+    middleware: 'pages',
   },
   /*
   ** Customize the progress bar color
