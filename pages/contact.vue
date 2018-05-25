@@ -4,20 +4,11 @@
       Contact
     </h1>
     <div class="content">
-      <form name="contact" action="" method="POST" netlify>
+      <form name="contact" action="(success/" method="POST" netlify>
         <input type="hidden" name="form-name" value="contact" />
-        <label class="form-label" for="name">
-          Name:
-        </label>
-        <input class="form-field" name="name" id="name" />
-        <label class="form-label" for="email">
-          Email:
-        </label>
-        <input class="form-field" name="email" id="email" />
-        <label class="form-label" for="message">
-          Message:
-        </label>
-        <textarea class="form-field" name="message" id="message"></textarea>
+        <label>Name<input name="name" id="name" /></label>
+        <label>Email*<input name="email" id="email" /></label>        
+        <label>Nachricht<textarea class="form-field" name="message" id="message"></textarea></label>        
         <input class="form-button" type="submit" value="Send message" />
       </form>
     </div>

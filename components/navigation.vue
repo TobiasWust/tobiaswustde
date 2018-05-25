@@ -2,10 +2,10 @@
   <nav>
     <ul>
       <li><nuxt-link exact to="/">Home</nuxt-link></li>
-      <li><nuxt-link to="/about">Über Mich</nuxt-link></li>
-      <li><nuxt-link to="/blog">Blog</nuxt-link></li>
-      <li><nuxt-link to="/offer">Angebot</nuxt-link></li>
-      <li><nuxt-link to="/contact">Kontakt</nuxt-link></li>
+      <li><nuxt-link to="/about/">Über Mich</nuxt-link></li>
+      <li><nuxt-link to="/blog/">Blog</nuxt-link></li>
+      <li><nuxt-link to="/offer/">Angebot</nuxt-link></li>
+      <li><nuxt-link to="/contact/">Kontakt</nuxt-link></li>
     </ul>    
   </nav>
 </template>
