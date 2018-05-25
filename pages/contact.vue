@@ -4,8 +4,8 @@
       Contact
     </h1>
     <div class="content">
-      <no-ssr>
       <form name="contact" action="" method="POST" netlify>
+        <input type="hidden" name="form-name" value="contact" />
         <label class="form-label" for="name">
           Name:
         </label>
@@ -20,7 +20,6 @@
         <textarea class="form-field" name="message" id="message"></textarea>
         <input class="form-button" type="submit" value="Send message" />
       </form>
-      </no-ssr>
     </div>
   </div>
 </template>
