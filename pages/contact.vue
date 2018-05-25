@@ -4,7 +4,7 @@
       Contact
     </h1>
     <div class="content">
-      <form name="contact" action="(success/" method="POST" netlify>
+      <form name="contact" action="/success/" method="POST" netlify>
         <input type="hidden" name="form-name" value="contact" />
         <label>Name<input name="name" id="name" /></label>
         <label>Email*<input name="email" id="email" /></label>        
