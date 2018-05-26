@@ -10,6 +10,7 @@ export default {};
 
 <style scoped>
 div {
-  background-color: #0d999e;
+  background-color: #3dba6a;
+  color: white;
 }
 </style>

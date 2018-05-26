@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1 class="title">
-      Contact
+      Kontakt
     </h1>
     <div class="content">
       <form name="contact" action="/success/" method="POST" netlify>

@@ -20,6 +20,11 @@ export default {
 </script>
 
 <style scoped>
+nav {
+  background-color: #111;
+  padding: 2px;
+}
+
 .nuxt-link-active {
   color: orange;
 }
@@ -28,10 +33,16 @@ a {
   color: white;
   transition: all 1s ease;
 }
+
 li {
   list-style: none;
   display: inline;
   padding-right: 1em;
   padding-left: 1em;
+  transition: all 1s ease;
+}
+
+a:hover {
+  color: #3dba6a;
 }
 </style>

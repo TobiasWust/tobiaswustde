@@ -57,14 +57,19 @@ body {
   /* background-image: url("~/assets/img/background.jpg"); */
   background-repeat: no-repeat;
   background-size: 100% auto;
-  background-color: #444;
-  color: #fff;
+  background-color: #111;
+  color: #7a7b7c;
   font-size: 150%;
 }
 
 h1,
 p {
   margin: 0 0 1em 0;
+}
+
+.wrapper {
+  background-color: #eee;
+  height: 100%;
 }
 
 /* .wrapper {
