@@ -60,7 +60,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-color: #111;
-  color: #7a7b7c;
+  color: #999;
   font-size: 130%;
 }
 h1 {

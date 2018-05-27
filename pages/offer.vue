@@ -5,7 +5,7 @@
 
 <div class="products">
             <div id="website" class="product material">
-                <h2>Internetseiten</h2>
+                <h2>Websites</h2>
                 <img class="productthump" src="~/assets/img/websites.svg" alt="">
                 <p>Ich erstelle für dich eine <strong>Internetseite</strong>. Dabei wähle ich anhand deiner Anforderungen die für dich beste Technologie aus. Du musst selbst davon keine Ahnung haben aber ich arbeite mit:</p>
                 <ul>

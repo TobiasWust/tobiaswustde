@@ -1,12 +1,14 @@
 <template>
 <div>
   <h1>Hi, ich bin<br>Tobias Wust</h1>
-  <p>Ich mache</p>
+  <p>Ich mache
+    <nuxt-link to="/offer/">
     <span class="slider">
       <span class="slide">Websites</span>
       <span class="slide">Progressive Webapps</span>
       <span class="slide">SAP ABAP</span>
-    </span>
+    </span></nuxt-link></p>
+    
 </div>
 </template>
 
@@ -44,30 +46,21 @@ export default {};
   flex-shrink: 0;
   text-align: center;
 }
-
+a {
+  color: white;
+  text-decoration: none;
+}
 div {
   color: white;
   font-size: 150%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
 }
 
 h1 {
   color: white;
   text-align: left;
-}
-ul {
-  display: inline-block;
-  width: 450px;
-  position: relative;
-}
-li {
-  text-align: center;
-  padding-left: 5px;
-  padding-right: 5px;
-  /* position: absolute;
-  top: 0;
-  left: 0; */
-  list-style: none;
-  background-color: #f68714;
-  color: white;
 }
 </style>
