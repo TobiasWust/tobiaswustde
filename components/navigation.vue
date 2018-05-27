@@ -34,6 +34,7 @@ nav {
 .nuxt-link-active {
   color: orange;
 }
+
 a {
   text-decoration: none;
   color: white;
