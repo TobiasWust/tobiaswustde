@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <header class="header"><navigation/></header>
-      <article class="content"  :class="{ 'indexbg' : (page !== 'index') }">      
+      <article class="content"  :class="{ 'contentbg' : (page !== 'index') }">      
           <nuxt/>
       </article>
     <footer class="footer"><wu_footer/></footer>
@@ -69,17 +69,14 @@ p {
   margin: 0 0 1em 0;
 }
 
-.indexbg {
+.contentbg {
   transition: all 1s ease;
   background-color: #eee;
 }
 
 .wrapper {
-  height: 100%;
   background-image: url("~/assets/img/background.jpg");
-}
-
-.wrapper {
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   min-height: 100vh;

@@ -6,8 +6,8 @@
     <div class="content">
       <form name="contact" action="/success/" method="POST" netlify>
         <input type="hidden" name="form-name" value="contact" />
-        <label>Name<input name="name" id="name" /></label>
-        <label>Email*<input name="email" id="email" /></label>        
+        <label>Email*<input name="email" id="email" /></label> 
+        <label>Name<input name="name" id="name" /></label>               
         <label>Nachricht<textarea class="form-field" name="message" id="message"></textarea></label>        
         <input class="form-button" type="submit" value="Send message" />
       </form>
