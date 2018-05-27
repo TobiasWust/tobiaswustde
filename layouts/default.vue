@@ -55,8 +55,7 @@ body {
 
 body {
   margin: 0;
-  font-family: "Open Sans", "sans-serif";
-  /* background-image: url("~/assets/img/background.jpg"); */
+  font-family: "Roboto", "Open Sans", "sans-serif";
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-color: #111;
