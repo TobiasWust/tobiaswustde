@@ -76,7 +76,6 @@ p {
 
 .wrapper {
   height: 100%;
-
   background-image: url("~/assets/img/background.jpg");
 }
 
@@ -87,7 +86,9 @@ p {
 }
 
 .content {
+  transition: all 1s ease;
   flex: 1;
+  padding: 1em;
 }
 
 footer {
