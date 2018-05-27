@@ -63,15 +63,30 @@ body {
   color: #7a7b7c;
   font-size: 130%;
 }
-
+h1 {
+  color: #111;
+  text-align: center;
+}
 h1,
 p {
-  margin: 0 0 1em 0;
+  margin: 0 0 0 0;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    #3dba6a,
+    rgba(0, 0, 0, 0)
+  );
+  width: 30%;
 }
 
 .contentbg {
   transition: all 1s ease;
-  background-color: #eee;
+  background-color: #ddd;
 }
 
 .wrapper {

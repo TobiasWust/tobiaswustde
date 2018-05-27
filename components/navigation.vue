@@ -3,11 +3,11 @@
     
     <ul>
       <li><img src="~/assets/img/monogram.svg"></li>
-      <li><nuxt-link exact to="/">Home</nuxt-link></li>
-      <li><nuxt-link to="/about/">Über Mich</nuxt-link></li>
-      <li><nuxt-link to="/blog/">Blog</nuxt-link></li>
-      <li><nuxt-link to="/offer/">Angebot</nuxt-link></li>
-      <li><nuxt-link to="/contact/">Kontakt</nuxt-link></li>
+      <li><nuxt-link exact to="/">HOME</nuxt-link></li>
+      <li><nuxt-link to="/about/">ÜBER MICH</nuxt-link></li>
+      <li><nuxt-link to="/blog/">BLOG</nuxt-link></li>
+      <li><nuxt-link to="/offer/">ANGEBOT</nuxt-link></li>
+      <li><nuxt-link to="/contact/">KONTAKT</nuxt-link></li>
     </ul>    
   </nav>
 </template>
@@ -38,7 +38,7 @@ nav {
 }
 
 .nuxt-link-active {
-  color: orange;
+  color: #f68714;
 }
 
 a {

@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>Angebot</h1>
+    <hr>
     <h2>Internetseiten</h2>
     <p>Ich erstelle für dich eine Internetseite. Dabei wähle ich anhand deiner Anforderungen die für dich beste Technologie aus. Du musst selbst davon keine Ahnung haben aber ich arbeite mit:</p>
     <ul>

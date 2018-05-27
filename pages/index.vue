@@ -1,6 +1,6 @@
 <template>
 <div>
-  <h1>Hi, ich bin Tobias Wust</h1>
+  <h1>Hi, ich bin<br>Tobias Wust</h1>
   <p>Ich mache</p>
     <ul>
       <li>Websites</li>
@@ -16,11 +16,14 @@ export default {};
 </script>
 
 <style scoped>
+div {
+  color: white;
+  font-size: 150%;
+}
+
 h1 {
   color: white;
-}
-p {
-  color: white;
+  text-align: left;
 }
 ul {
   display: inline-block;
