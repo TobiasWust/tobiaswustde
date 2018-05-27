@@ -33,6 +33,9 @@
                     <li>
                         Vue.js
                     </li>
+                    <li>
+                        Cordova
+                    </li>                    
                 </ul>
             </div>
 
