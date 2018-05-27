@@ -61,7 +61,7 @@ body {
   background-size: 100% auto;
   background-color: #111;
   color: #7a7b7c;
-  font-size: 120%;
+  font-size: 130%;
 }
 
 h1,

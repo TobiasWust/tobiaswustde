@@ -1,6 +1,8 @@
 <template>
   <nav :class="{ 'indexnav' : (page === 'index') }">
+    
     <ul>
+      <li><img src="~/assets/img/monogram.svg"></li>
       <li><nuxt-link exact to="/">Home</nuxt-link></li>
       <li><nuxt-link to="/about/">Über Mich</nuxt-link></li>
       <li><nuxt-link to="/blog/">Blog</nuxt-link></li>
@@ -20,6 +22,10 @@ export default {
 </script>
 
 <style scoped>
+img {
+  display: inline-block;
+  height: 30px;
+}
 nav {
   background-color: #111;
   padding: 2px;
