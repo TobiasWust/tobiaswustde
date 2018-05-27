@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink"
+width="128" height="128">
+  <title>Joystick</title>
+  <desc>A color styled icon from Orion Icon Library.</desc>
+  <path data-name="layer2"
+  fill="#fff" d="M2 42v20h60V42"></path>
+  <circle data-name="layer1" cx="40" cy="52" r="3" fill="#f25b7c"></circle>
+  <circle data-name="layer1" cx="52" cy="52" r="3" fill="#f25b7c"></circle>
+  <circle data-name="opacity" cx="38" cy="54" r="3" fill="#000064"
+  opacity=".15"></circle>
+  <circle data-name="opacity" cx="50" cy="54" r="3" fill="#000064"
+  opacity=".15"></circle>
+  <path data-name="layer1" fill="#f25b7c" d="M2 34h60v8H2z"></path>
+  <path data-name="opacity" fill="#000064" opacity=".15" d="M2 34h5v28H2z"></path>
+  <circle data-name="stroke" cx="40" cy="52" r="3" fill="none" stroke="#1b522f"
+  stroke-linecap="round" stroke-linejoin="miter" stroke-width="3"></circle>
+  <circle data-name="stroke" cx="52" cy="52" r="3" fill="none"
+  stroke="#1b522f" stroke-linecap="round" stroke-linejoin="miter" stroke-width="3"></circle>
+  <path data-name="stroke" fill="none" stroke="#1b522f" stroke-linecap="round"
+  stroke-linejoin="miter" stroke-width="3" d="M14 44v12m-6-6h12m12-16v-7a9 9 0 0 1 9-9h5a8 8 0 0 0 8-8V2M2 34h60v8H2z"></path>
+  <path data-name="stroke" fill="none" stroke="#1b522f" stroke-linecap="round"
+  stroke-linejoin="miter" stroke-width="3" d="M2 42v20h60V42"></path>
+</svg>
