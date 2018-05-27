@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <header class="header"><navigation/></header>
-      <article class="content">      
+      <article class="content"  :class="{ 'indexbg' : (page !== 'index') }">      
           <nuxt/>
       </article>
     <footer class="footer"><wu_footer/></footer>
@@ -12,6 +12,7 @@
 import navigation from "~/components/navigation.vue";
 import wu_footer from "~/components/wu_footer.vue";
 import VueMarkdown from "vue-markdown";
+import { mapState } from "vuex";
 
 export default {
   data() {
@@ -23,7 +24,8 @@ export default {
     navigation,
     wu_footer,
     VueMarkdown
-  }
+  },
+  computed: mapState(["page"])
 };
 </script>
 
@@ -67,37 +69,30 @@ p {
   margin: 0 0 1em 0;
 }
 
-.wrapper {
+.indexbg {
+  transition: all 1s ease;
   background-color: #eee;
-  height: 100%;
 }
 
-/* .wrapper {
-  max-width: 940px;
-  margin: 0 20px;
-  display: grid;
-  grid-gap: 10px;
-} */
+.wrapper {
+  height: 100%;
 
-/* .wrapper > * {
-  color: #fff;
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 150%;
-  /* needed for the floated layout
-  margin-bottom: 10px;
-} */
+  background-image: url("~/assets/img/background.jpg");
+}
 
-/* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
-/* @supports (display: grid) {
-  .wrapper > * {
-    width: auto;
-    margin: 0;
-  }
-} */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
 
 footer {
   width: 100%;
+  bottom: 0px;
 }
 </style>
 

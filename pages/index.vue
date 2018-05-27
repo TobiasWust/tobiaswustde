@@ -1,14 +1,13 @@
 <template>
 <div>
   <h1>Hi, ich bin Tobias Wust</h1>
-  <p>Ich mache
+  <p>Ich mache</p>
     <ul>
       <li>Websites</li>
       <li>Progressive Webapps</li>
       <li>Games</li>
       <li>SAP ABAP</li>
     </ul>
-  </p>
 </div>
 </template>
 
@@ -17,6 +16,12 @@ export default {};
 </script>
 
 <style scoped>
+h1 {
+  color: white;
+}
+p {
+  color: white;
+}
 ul {
   display: inline-block;
   width: 450px;

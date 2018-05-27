@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav :class="{ 'indexnav' : (page === 'index') }">
     <ul>
       <li><nuxt-link exact to="/">Home</nuxt-link></li>
       <li><nuxt-link to="/about/">Über Mich</nuxt-link></li>
@@ -23,6 +23,12 @@ export default {
 nav {
   background-color: #111;
   padding: 2px;
+  transition: all 1s ease;
+}
+
+.indexnav {
+  background: none;
+  transition: all 1s ease;
 }
 
 .nuxt-link-active {
