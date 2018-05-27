@@ -38,7 +38,7 @@ export default {};
 }
 
 .slide {
-  animation: slide 8s ease 2s infinite alternate;
+  animation: slide 8s ease-in-out 2s infinite alternate;
   width: 450px;
   flex-shrink: 0;
   text-align: center;
