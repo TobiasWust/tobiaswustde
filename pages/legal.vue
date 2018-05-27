@@ -1,8 +1,7 @@
 <template>
   <div>
-    <h1>Vielen Dank!</h1>
+    <h1>AGB</h1>
     <hr>
-    <p>Ich werde mich melden :)</p>
   </div>
 </template>
 

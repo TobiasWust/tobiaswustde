@@ -25,7 +25,7 @@
   <p>Du hast eine Idee für ein Spiel, bist Grafiker, der seine gemalten Figuren zum Leben erwecken will oder möchtest ein Spiel mit deinem Firmenlogo? Ich erstelle für dich 2D Spiele für den Browser, Mobil (Android) oder Desktop. Je nach Anforderung nutze ich dafür:</p>
   <ul>
     <li>Phaser.io</li>
-    <li>Game Maker Studio2</li>
+    <li>Construct 2</li>
   </ul>
   
   <h2>Außerdem</h2>

@@ -7,7 +7,7 @@
     <div class="content">
       <form name="contact" action="/success/" method="POST" netlify>
         <input type="hidden" name="form-name" value="contact" />
-        <label>Email*<input name="email" id="email" placeholder="Email" required /></label> 
+        <label>Email*<input name="email" id="email" placeholder="Email" type="email" required /></label> 
         <label>Name<input name="name" id="name" placeholder="Name" /></label>               
         <label>Nachricht<textarea class="form-field" name="message" id="message" rows="6" placeholder="Deine Nachricht"></textarea></label>        
         <input class="form-button" type="submit" value="Senden" />
@@ -37,7 +37,7 @@ textarea {
   border: none;
   width: 200px;
   height: 40px;
-  transition: all 0.3s ease;
+  transition: all 1s ease;
 }
 
 .form-button:hover {

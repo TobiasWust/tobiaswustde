@@ -1,8 +1,8 @@
 <template>
   <div>
-    <nuxt-link exact to="/">Datenschutz</nuxt-link> |
-    <nuxt-link exact to="/">AGB</nuxt-link> |
-    <nuxt-link exact to="/">Impressum</nuxt-link>
+    <nuxt-link exact to="/privacy/">Datenschutz</nuxt-link> |
+    <nuxt-link exact to="/legal/">AGB</nuxt-link> |
+    <nuxt-link exact to="/imprint/">Impressum</nuxt-link>
   </div>
 </template>
 
@@ -11,6 +11,9 @@ export default {};
 </script>
 
 <style scoped>
+.nuxt-link-active {
+  color: #111;
+}
 a {
   color: white;
   text-decoration: none;

@@ -67,8 +67,7 @@ h1 {
   color: #111;
   text-align: center;
 }
-h1,
-p {
+h1 {
   margin: 0 0 0 0;
 }
 
