@@ -16,10 +16,11 @@ export default {};
 
 <style scoped>
 .slider {
-  width: 450px;
+  width: 200px;
   display: flex;
   overflow-x: hidden;
   background-color: #f68714;
+  align-items: center;
 }
 
 @keyframes slide {
@@ -29,17 +30,17 @@ export default {};
   }
   40%,
   60% {
-    transform: translateX(-450px);
+    transform: translateX(-200px);
   }
   80%,
   100% {
-    transform: translateX(-900px);
+    transform: translateX(-400px);
   }
 }
 
 .slide {
   animation: slide 8s ease-in-out 2s infinite alternate;
-  width: 450px;
+  width: 200px;
   flex-shrink: 0;
   text-align: center;
 }

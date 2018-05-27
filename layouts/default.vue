@@ -66,8 +66,6 @@ body {
 h1 {
   color: #111;
   text-align: center;
-}
-h1 {
   margin: 0 0 0 0;
 }
 
@@ -91,6 +89,7 @@ hr {
 .wrapper {
   background-image: url("~/assets/img/background.jpg");
   background-repeat: no-repeat;
+  background-position: 60% 0;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
