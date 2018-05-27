@@ -64,6 +64,7 @@ svg:hover {
 
 a {
   text-decoration: none;
+  text-shadow: 1px 1px 2px black;
   color: white;
   transition: all 1s ease;
 }

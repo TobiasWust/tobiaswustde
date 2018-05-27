@@ -63,4 +63,9 @@ h1 {
   color: white;
   text-align: left;
 }
+
+p,
+h1 {
+  text-shadow: 1px 1px 2px black;
+}
 </style>
