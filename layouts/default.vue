@@ -85,7 +85,7 @@ hr {
 
 .contentbg {
   transition: all 1s ease;
-  background-color: #ddd;
+  background-color: #eee;
 }
 
 .wrapper {
