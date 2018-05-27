@@ -57,8 +57,8 @@
             </div>
 
             <div class="product material">
-                <h2> Connections</h2>
-                <p> Ich habe ein großes <strong>Netzwerk</strong> aus professionellen Grafikdesignern, Linuxnerds und Programmierern jeder Art. Wenn ich dir selbst nicht helfen kann, dann profitierst du von meinen Connections.
+                <h2>Außerdem</h2>
+                <p>Ich habe ein großes <strong>Netzwerk</strong> aus professionellen Grafikdesignern, Linuxnerds und Programmierern jeder Art. Wenn ich dir selbst nicht helfen kann, dann profitierst du von meinen Connections.
                 </p>
             </div>
         </div>
