@@ -13,6 +13,7 @@ module.exports = {
       /*{ src: 'sw-register.js' }*/
     ],
     link: [
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'manifest', href: '/manifest.json' }
     ]

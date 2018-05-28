@@ -36,6 +36,8 @@ export default {
 .logo {
   margin: 1em 1em;
   height: 30px;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 nav {
