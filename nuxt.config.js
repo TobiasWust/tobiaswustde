@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Website von Tobias Wust' }
     ],
     script: [
-      { src: 'sw-register.js' }
+      /*{ src: 'sw-register.js' }*/
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
