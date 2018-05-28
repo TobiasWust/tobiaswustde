@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
-aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink"
-width="128" height="128">
-  <title>Bar Chart</title>
-  <desc>A color styled icon from Orion Icon Library.</desc>
-  <path data-name="layer1"
-  fill="#c3d6f9" d="M52 10h8v44h-8zM36 30h8v23.99h-8zm-16-8h8v32h-8zM4 42h8v11.99H4z"></path>
-  <path data-name="opacity" fill="#fff" opacity=".25" d="M4 42h8v11.99H4z"></path>
-  <path data-name="opacity" fill="#fff" opacity=".15" d="M36 30h8v23.99h-8z"></path>
-  <path data-name="opacity" opacity=".15" d="M52 10h8v43.99h-8z"></path>
-  <path data-name="stroke" fill="none" stroke="#1b522f" stroke-linecap="round"
-  stroke-linejoin="miter" stroke-width="3" d="M52 54V10h8v44m-24 0V30h8v24m-24 0V22h8v32M4 54V42h8v12m50 0H2"></path>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="23.885mm" width="29.086mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 103.0601 84.630437">
+<g transform="translate(-302.76 -415.76)">
+<g transform="translate(-27.903 247.13)" stroke="#7a7b7c">
+<g>
+<rect height="61.589" width="16.419" y="189.35" x="339.63" stroke-width="3.5644" fill="#3dba6a"/>
+<rect height="42.936" width="16.959" y="206.51" x="362.26" stroke-width="3.0246" fill="#f68714"/>
+<rect height="50.776" width="16.718" y="198.55" x="385.28" stroke-width="3.2658" fill="#3dba6a"/>
+<rect height="78.109" width="16.019" y="170.61" x="408.52" stroke-width="3.9649" fill="#f68714"/>
+</g>
+<path d="m333.7 250.26h96.975" stroke-linecap="round" stroke-width="6" fill="none"/>
+</g>
+</g>
 </svg>
