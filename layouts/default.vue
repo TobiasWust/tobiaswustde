@@ -91,10 +91,17 @@ hr {
   background-image: url("~/assets/img/background.jpg");
   background-repeat: no-repeat;
   background-position: 60% 0;
-  background-size: 100% auto;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-size: cover;
+}
+
+/* Medium screens */
+@media all and (max-width: 1440px) {
+  .wrapper {
+    background-size: auto;
+  }
 }
 
 .content {
