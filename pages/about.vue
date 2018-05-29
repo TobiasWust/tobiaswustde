@@ -4,7 +4,7 @@
     <hr>
     <h2>Willkommen auf meiner Seite!</h2>
     <p>Mein Name ist Tobias Wust. Ich bin ein dauerreisender Entwickler.</p>
-
+    <img style="float: right; margin: 2em;" src="~/assets/img/serioesesfoto.jpg">
     <h2>Was bedeutet es ein reisender Entwickler zu sein?</h2>
     <p>Für mich bedeutet es vor allem die Freiheit immer mit meinem Laptop unterwegs zu sein und zu arbeiten wann und wo es mir passt. Ich muss nicht mit Anzug ins Büro und kann sein wer ich gerne bin. Ich begegne dir auf freundschaftliche Art und halte nichts vom "Sie" – dafür bin ich ein Befürworter von langer Zusammenarbeit und bleibe auch gerne mit dir in Kontakt, wenn wir gerade keine gemeinsamen Projekte haben.</p>
     <p>Für dich bedeutet das, dass du in mir einen stets gut gelaunten und motivierten Arbeitspartner findest, der Kunden nicht als Massenware sieht und jedes Problem individuell angeht. Es bedeutet aber auch, dass ich manchmal auf einem Berg ohne Internetverbindung bin.</p>
@@ -37,7 +37,7 @@
       <li><strong>Blog: </strong><a href="https://wust.me">https://wust.me</a></li>
       <li><strong>Xing: </strong><a href="https://www.xing.com/profile/Tobias_Wust">https://www.xing.com/profile/Tobias_Wust</a></li>
       <li><strong>Github: </strong><a href="https://github.com/TobiasWust">https://github.com/TobiasWust</a></li>
-      <li><strong>LinkedIn: </strong><a href="http://www.linkedin.com/in/tobias-wust">http://www.linkedin.com/in/tobias-wust</a></li>
+      <li><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/tobias-wust">https://www.linkedin.com/in/tobias-wust</a></li>
       <li><strong>Upwork: </strong><a href="https://www.upwork.com/freelancers/~015de477f2f7de1f83">https://www.upwork.com/freelancers/~015de477f2f7de1f83</a></li>
     </ul>
 
