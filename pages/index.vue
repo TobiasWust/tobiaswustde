@@ -1,6 +1,6 @@
 <template>
 <div>
-  <h1>Hi, ich bin<br>Tobias Wust</h1>
+  <h1>Hi, ich bin<br>TOBIAS WUST</h1>
   <p>Ich mache
     <nuxt-link to="/offer/">
     <span class="slider">
@@ -8,7 +8,6 @@
       <span class="slide">Progressive Webapps</span>
       <span class="slide">SAP ABAP</span>
     </span></nuxt-link></p>
-    
 </div>
 </template>
 

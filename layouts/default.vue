@@ -35,7 +35,6 @@ export default {
 <style>
 html,
 body {
-  max-width: 100%;
   overflow-x: hidden;
 }
 
@@ -60,8 +59,8 @@ body {
   margin: 0;
   font-family: "Roboto", "Open Sans", "sans-serif";
   background-repeat: no-repeat;
-  background-size: 100% auto;
   background-color: #111;
+
   color: #999;
   font-size: 130%;
 }
@@ -92,6 +91,7 @@ hr {
   background-image: url("~/assets/img/background.jpg");
   background-repeat: no-repeat;
   background-position: 60% 0;
+  background-size: 100% auto;
   display: flex;
   flex-direction: column;
   min-height: 100vh;

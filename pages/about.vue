@@ -3,11 +3,11 @@
     <h1>Über Mich</h1>
     <hr>
     <h2>Willkommen auf meiner Seite!</h2>
-    <p>Mein Name ist Tobias Wust. Ich bin ein dauerreisender Entwickler. Auf dem Bild siehst du mich in meinem Büro.</p>
+    <p>Mein Name ist Tobias Wust. Ich bin ein dauerreisender Entwickler.</p>
 
     <h2>Was bedeutet es ein reisender Entwickler zu sein?</h2>
     <p>Für mich bedeutet es vor allem die Freiheit immer mit meinem Laptop unterwegs zu sein und zu arbeiten wann und wo es mir passt. Ich muss nicht mit Anzug ins Büro und kann sein wer ich gerne bin. Ich begegne dir auf freundschaftliche Art und halte nichts vom "Sie" – dafür bin ich ein Befürworter von langer Zusammenarbeit und bleibe auch gerne mit dir in Kontakt, wenn wir gerade keine gemeinsamen Projekte haben.</p>
-    <p>Für dich bedeutet das, dass du in mir einen stets gut gelaunten und motivierten Arbeitspartner findest, der Kunden nicht als Massenware sieht und jedes Problem individuell angeht. Es bedeutet aber auch, dass ich manchmal auf einem Berg ohne Internetverbindung bin. Dann kann ich kaum Arbeit erledigen. Wenn du oft strenge Deadlines hast, dann bin ich vielleicht nicht der richtige für dich – ich kann dir aber gerne helfen kompetente Partner zu finden.</p>
+    <p>Für dich bedeutet das, dass du in mir einen stets gut gelaunten und motivierten Arbeitspartner findest, der Kunden nicht als Massenware sieht und jedes Problem individuell angeht. Es bedeutet aber auch, dass ich manchmal auf einem Berg ohne Internetverbindung bin.</p>
 
     <h2>Wer bin ich?</h2>
     <p>Schon seit meinem 11. Lebensjahr war ich irgendwie Informatiker. Am Anfang wollte ich natürlich Spiele entwickeln und habe deshalb meine ersten Schritte mit Textadventures in BASIC gemacht. Darauf folgte Delphi, HTML und vieles mehr.
