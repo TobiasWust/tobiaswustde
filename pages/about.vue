@@ -14,7 +14,32 @@
     Nach der Schule habe ich ein duales Studium in Wirtschaftsinformatik gemacht. In dieser Zeit habe ich dann auch das Reisen für mich entdeckt. Nach dem Studium bin ich deshalb für ein Jahr um die Welt gereist - Alles dazu findest du in meinem <a href="https://wust.me/">privaten Blog</a>.
     Nach dieser Reise habe ich ein paar Jahre als SAP Programmierer im öffentlichen Dienst gearbeitet, bis ich mich irgendwann getraut habe meinen Job und meine Wohnung zu kündigen. Nun bin ich hier.</p>
 
+    <h2>Lebenslauf</h2>
+    <h3>Berufserfahrung</h3>
+    <ul>
+      <li><strong>03/2018 - heute Freelance Developer</strong> - Webentwicklung, Games, SAP ABAP</li>    
+      <li><strong>07/2016 - 06/2018 Remedyne GmbH</strong> - SAP Anwendungsentwicklung, SAP Anwendungsübersetzung</li>
+      <li><strong>09/2013 - 07/2017 Landeshauptstadt Hannover</strong> - SAP Administration, Anwendungsentwicklung und Modulbetreuung: Berechtigungen, CML, Geschäftspartner</li>
+      <li><strong>06/2012 - 09/2012 Landeshauptstadt Hannover</strong> - Datenbankadministration MySQL, MSSQL</li>
+    </ul>
+
+    <h3>Akademische Ausbildung</h3>
+    <ul>
+      <li><strong>11/2015 - 02/2017 Online-Schule für Gestaltung</strong> - Fernstudium Grafikdesign</li>    
+      <li><strong>08/2009 - 08/2012 Leibniz Fachhochschule</strong> - B.Sc. Wirtschaftsinformatik 2,3</li>
+      <li><strong>bis 07/2009 Gymnasium Langenhagen</strong> - Abitur 2,8</li>
+    </ul>
+
     <a href="">Mein ganzer Lebenslauf als PDF</a>
+
+    <h3>Finde mich</h3>
+    <ul>
+      <li><strong>Blog: </strong><a href="https://wust.me">https://wust.me</a></li>
+      <li><strong>Xing: </strong><a href="https://www.xing.com/profile/Tobias_Wust">https://www.xing.com/profile/Tobias_Wust</a></li>
+      <li><strong>Github: </strong><a href="https://github.com/TobiasWust">https://github.com/TobiasWust</a></li>
+      <li><strong>LinkedIn: </strong><a href="http://www.linkedin.com/in/tobias-wust">http://www.linkedin.com/in/tobias-wust</a></li>
+      <li><strong>Upwork: </strong><a href="https://www.upwork.com/freelancers/~015de477f2f7de1f83">https://www.upwork.com/freelancers/~015de477f2f7de1f83</a></li>
+    </ul>
 
   </div>
 </template>
@@ -24,4 +49,7 @@ export default {};
 </script>
 
 <style scoped>
+strong {
+  color: #f68714;
+}
 </style>

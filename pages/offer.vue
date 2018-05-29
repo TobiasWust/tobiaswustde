@@ -90,6 +90,7 @@ ul {
 .product li {
   list-style: none;
   font-weight: bold;
+  color: #f68714;
 }
 
 .productthump {
