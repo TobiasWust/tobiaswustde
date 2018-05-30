@@ -15,7 +15,7 @@
     <ul class="navigation">
       <!-- <li><nuxt-link exact to="/">HOME</nuxt-link></li> -->
       <li><nuxt-link to="/about/">ÜBER MICH</nuxt-link></li>
-      <!-- <li><nuxt-link to="/blog/">BLOG</nuxt-link></li> -->
+      <li><nuxt-link to="/blog/">BLOG</nuxt-link></li>
       <li><nuxt-link to="/offer/">ANGEBOT</nuxt-link></li>
       <li><nuxt-link to="/contact/">KONTAKT</nuxt-link></li>
     </ul>

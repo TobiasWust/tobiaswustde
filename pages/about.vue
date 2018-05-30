@@ -34,11 +34,10 @@
 
     <h3>Finde mich</h3>
     <ul>
-      <li><strong>Blog: </strong><a href="https://wust.me">https://wust.me</a></li>
+      <li><strong>Privater Blog: </strong><a href="https://wust.me">https://wust.me</a></li>
       <li><strong>Xing: </strong><a href="https://www.xing.com/profile/Tobias_Wust">https://www.xing.com/profile/Tobias_Wust</a></li>
       <li><strong>Github: </strong><a href="https://github.com/TobiasWust">https://github.com/TobiasWust</a></li>
-      <li><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/tobias-wust">https://www.linkedin.com/in/tobias-wust</a></li>
-      <li><strong>Upwork: </strong><a href="https://www.upwork.com/freelancers/~015de477f2f7de1f83">https://www.upwork.com/freelancers/~015de477f2f7de1f83</a></li>
+      <li><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/tobias-wust">https://www.linkedin.com/in/tobias-wust</a></li>      
     </ul>
 
   </div>

@@ -29,7 +29,7 @@ div {
 }
 
 button {
-  background-color: orange;
+  background-color: #f68714;
   border: none;
   color: white;
   font-size: 120%;
