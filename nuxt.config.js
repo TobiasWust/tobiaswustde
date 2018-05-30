@@ -46,6 +46,18 @@ module.exports = {
   },
   generate: {
     routes: [
+      async function () {
+        try {
+          const res = await fetch("https://wust.me/wp-json/wp/v2/posts/");
+          const posts = await res.json();
+          this.posts = posts;
+          return posts.map((post) => {
+            return '/blog/' + post.id
+          })
+        } catch (e) {
+          console.log(e);
+        }
+      },
       '/blog/sick'
     ]
   }
