@@ -19,17 +19,17 @@
     <h2>Lebenslauf</h2>
     <h3>Berufserfahrung</h3>
     <ul>
-      <li>03/2018 - heute <br><strong>Freelance Developer</strong> - Webentwicklung, Games, SAP ABAP</li>    
-      <li>07/2016 - 06/2018 <br><strong>Remedyne GmbH</strong> - SAP Anwendungsentwicklung, SAP Anwendungsübersetzung</li>
-      <li>09/2013 - 07/2017 <br><strong>Landeshauptstadt Hannover</strong> - SAP Administration, Anwendungsentwicklung und Modulbetreuung: Berechtigungen, CML, Geschäftspartner</li>
-      <li>06/2012 - 09/2012 <br><strong>Landeshauptstadt Hannover</strong> - Datenbankadministration MySQL, MSSQL</li>
+      <li>03/2018 - heute <br><strong>Freelance Developer</strong><br>Webentwicklung, Games, SAP ABAP</li>    
+      <li>07/2016 - 06/2018 <br><strong>Remedyne GmbH</strong><br>SAP Anwendungsentwicklung, SAP Anwendungsübersetzung</li>
+      <li>09/2013 - 07/2017 <br><strong>Landeshauptstadt Hannover</strong><br>SAP Administration, Anwendungsentwicklung und Modulbetreuung: Berechtigungen, CML, Geschäftspartner</li>
+      <li>06/2012 - 09/2012 <br><strong>Landeshauptstadt Hannover</strong><br>Datenbankadministration MySQL, MSSQL</li>
     </ul>
 
     <h3>Akademische Ausbildung</h3>
     <ul>
-      <li>11/2015 - 02/2017 <br><strong>Online-Schule für Gestaltung</strong> - Fernstudium Grafikdesign</li>    
-      <li>08/2009 - 08/2012 <br><strong>Leibniz Fachhochschule</strong> - B.Sc. Wirtschaftsinformatik 2,3</li>
-      <li>bis 07/2009 <br><strong>Gymnasium Langenhagen</strong> - Abitur 2,8</li>
+      <li>11/2015 - 02/2017 <br><strong>Online-Schule für Gestaltung</strong><br>Fernstudium Grafikdesign</li>    
+      <li>08/2009 - 08/2012 <br><strong>Leibniz Fachhochschule</strong><br>B.Sc. Wirtschaftsinformatik 2,3</li>
+      <li>bis 07/2009 <br><strong>Gymnasium Langenhagen</strong><br>Abitur 2,8</li>
     </ul>
 
     <a href="">Mein ganzer Lebenslauf als PDF</a>
@@ -56,5 +56,6 @@ strong {
 
 li {
   list-style: circle;
+  margin-bottom: 0.5em;
 }
 </style>
