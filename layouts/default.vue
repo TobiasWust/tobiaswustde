@@ -119,6 +119,10 @@ a {
   color: #999;
   text-decoration-color: #3dba6a;
 }
+
+a:hover {
+  color: #3dba6a;
+}
 </style>
 
 

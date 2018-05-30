@@ -10,7 +10,7 @@
         <label>Email*<input name="email" id="email" placeholder="Email" type="email" required /></label> 
         <label>Name<input name="name" id="name" placeholder="Name" /></label>               
         <label>Nachricht<textarea class="form-field" name="message" id="message" rows="6" placeholder="Deine Nachricht"></textarea></label>                     
-        <label class="container">Ich akzeptiere die <a href="/privacy/">Datenschutzbestimmungen</a>*
+        <label class="container">Ich akzeptiere die <nuxt-link to="/privacy/">Datenschutzbestimmungen</nuxt-link>*
           <input name="privacy" id="privacy" type="checkbox" required />
           <span class="checkmark"></span>
         </label>
