@@ -44,7 +44,9 @@ module.exports = {
       }
     }
   },
-  routes: [
-    '/blog/sick'
-  ]
+  generate: {
+    routes: [
+      '/blog/sick'
+    ]
+  }
 }
