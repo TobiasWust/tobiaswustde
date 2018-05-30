@@ -43,5 +43,8 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  routes: [
+    '/blog/sick'
+  ]
 }
