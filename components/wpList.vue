@@ -1,8 +1,6 @@
 <template>
   <div class="blog">
     <div v-for="post in posts" :key="post.id">
-      <!-- <h2>{{ post.title.rendered }}</h2>
-      <p v-html="post.excerpt.rendered"></p> -->
       <wpPost :post="post" />
       <hr>
     </div>
