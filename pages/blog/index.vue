@@ -1,8 +1,8 @@
 <template>
   <div>
     <h1>Blog</h1>
-    (erstmal von wust.me reingehackt. später was eigenes)
     <hr>
+        (erstmal von wust.me reingehackt. später was eigenes)
     <wpList />
   </div>
 </template>
