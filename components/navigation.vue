@@ -45,6 +45,7 @@ nav {
   padding: 2px;
   transition: all 1s ease;
   display: flex;
+  align-items: center;
 }
 
 .indexnav {
