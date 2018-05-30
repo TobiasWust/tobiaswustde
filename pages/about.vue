@@ -4,7 +4,9 @@
     <hr>
     <h2>Willkommen auf meiner Seite!</h2>
     <p>Mein Name ist Tobias Wust. Ich bin ein dauerreisender Entwickler.</p>
-    <img style="float: right; margin: 2em;" src="~/assets/img/serioesesfoto.jpg">
+    <!-- <img style="float: right; margin: 2em;" src="~/assets/img/serioesesfoto.jpg"> -->
+    <img style="float: right; margin: 2em;" src="http://res.cloudinary.com/tobiaswust/image/upload/c_scale,f_auto,q_auto,w_1440,x_0/v1527682422/tobiaswust.de/IMG_1080.jpg">
+    
     <h2>Was bedeutet es ein reisender Entwickler zu sein?</h2>
     <p>Für mich bedeutet es vor allem die Freiheit immer mit meinem Laptop unterwegs zu sein und zu arbeiten wann und wo es mir passt. Ich muss nicht mit Anzug ins Büro und kann sein wer ich gerne bin. Ich begegne dir auf freundschaftliche Art und halte nichts vom "Sie" – dafür bin ich ein Befürworter von langer Zusammenarbeit und bleibe auch gerne mit dir in Kontakt, wenn wir gerade keine gemeinsamen Projekte haben.</p>
     <p>Für dich bedeutet das, dass du in mir einen stets gut gelaunten und motivierten Arbeitspartner findest, der Kunden nicht als Massenware sieht und jedes Problem individuell angeht. Es bedeutet aber auch, dass ich manchmal auf einem Berg ohne Internetverbindung bin.</p>

@@ -88,7 +88,8 @@ hr {
 }
 
 .wrapper {
-  background-image: url("~/assets/img/background.jpg");
+  /* background-image: url("~/assets/img/background.jpg"); dev */
+  background-image: url("https://res.cloudinary.com/tobiaswust/image/upload/c_scale,f_auto,q_auto:good,w_1440/v1527682422/tobiaswust.de/IMG_1080.jpg");
   background-repeat: no-repeat;
   background-position: 60% 0;
   display: flex;
