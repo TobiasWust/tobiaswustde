@@ -114,6 +114,11 @@ footer {
   width: 100%;
   bottom: 0px;
 }
+
+a {
+  color: #999;
+  text-decoration-color: #3dba6a;
+}
 </style>
 
 
