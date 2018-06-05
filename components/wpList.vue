@@ -23,7 +23,7 @@ export default {
   methods: {
     fetchData: async function() {
       try {
-        const res = await fetch("https://wust.me/wp-json/wp/v2/posts/");
+        const res = await fetch("http://blog.tobiaswust.de/wp-json/wp/v2/posts/");
         const posts = await res.json();
         this.posts = posts;
         console.log(posts);

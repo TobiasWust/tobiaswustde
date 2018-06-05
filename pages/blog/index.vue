@@ -2,7 +2,7 @@
   <div>
     <h1>Blog</h1>
     <hr>
-        (erstmal von wust.me reingehackt. später was eigenes)
+        (von blog.tobiaswust.de reingehackt. später was eigenes)
     <wpList />
   </div>
 </template>
