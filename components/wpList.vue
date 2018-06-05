@@ -1,14 +1,14 @@
 <template>
   <div class="blog">
     <div v-for="post in posts" :key="post.id">
-      <wpPost :post="post" />
+      <wpPostExcerpt :post="post" />
       <hr>
     </div>
   </div>
 </template>
 
 <script>
-import wpPost from "~/components/wpPost.vue";
+import wpPost from "~/components/wpPostExcerpt.vue";
 
 export default {
   name: "wpList",
@@ -23,7 +23,9 @@ export default {
   methods: {
     fetchData: async function() {
       try {
-        const res = await fetch("https://blog.tobiaswust.de/wp-json/wp/v2/posts/");
+        const res = await fetch(
+          "https://blog.tobiaswust.de/wp-json/wp/v2/posts/"
+        );
         const posts = await res.json();
         this.posts = posts;
         console.log(posts);
@@ -33,7 +35,7 @@ export default {
     }
   },
   components: {
-    wpPost
+    wpPostExcerpt
   }
 };
 </script>
