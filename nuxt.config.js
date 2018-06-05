@@ -1,14 +1,19 @@
 module.exports = {
   /*
   ** Headers of the page
+  TODO: FB OG, Structured Data, 
   */
   head: {
     titleTemplate: '%s - Tobias Wust - Websites | Progressive Webapps | SAP ABAP',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
+      { name: 'theme-color', content: '#3dba6a' },
+      { name: 'robots', content: 'index,follow' },
+      { name: 'googlebot', content: 'index,follow' },
       { hid: 'description', name: 'description', content: 'Tobias Wust - Websites | Progressive Webapps | SAP ABAP' },
-      { hid: 'keywords', name: 'keywords', content: 'vuejs, nuxt, javascript, abap, tobias, wust, pwa, progressive, webapp, html5, wordpress' }
+      { hid: 'keywords', name: 'keywords', content: 'vuejs, nuxt, javascript, abap, tobias, wust, pwa, progressive, webapp, html5, wordpress' },
+
     ],
     htmlAttrs: {
       lang: 'de'
@@ -19,7 +24,11 @@ module.exports = {
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'manifest', href: '/manifest.json' }
+      { rel: 'manifest', href: '/manifest.json' },
+      { rel: 'author', href: '/humans.txt' },
+      { rel: 'me', href: 'https://github.com/TobiasWust', type: 'text/html' },
+      { rel: 'me', href: 'mailto:kontakt@tobiaswust.de' },
+
     ],
 
   },
