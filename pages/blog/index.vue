@@ -11,6 +11,9 @@
 import wpList from "~/components/wp/wpList.vue";
 
 export default {
+  head: {
+    title: "Blog"
+  },
   components: {
     wpList
   }

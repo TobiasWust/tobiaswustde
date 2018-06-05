@@ -46,7 +46,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head: {
+    title: "Über Mich"
+  }
+};
 </script>
 
 <style scoped>

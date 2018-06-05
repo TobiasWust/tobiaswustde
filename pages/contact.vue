@@ -22,7 +22,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head: {
+    title: "Kontakt"
+  }
+};
 </script>
 
 <style scoped>

@@ -7,7 +7,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head: {
+    title: "Vielen Dank!"
+  }
+};
 </script>
 
 <style scoped>

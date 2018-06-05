@@ -8,7 +8,11 @@ href="javascript:gaOptout()">Google Analytics deaktivieren</a></p><div>einen Opt
 </template>
 
 <script>
-export default {};
+export default {
+  head: {
+    title: "Datenschutzerklärung"
+  }
+};
 </script>
 
 <style scoped>

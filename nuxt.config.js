@@ -3,12 +3,16 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Tobias Wust',
+    titleTemplate: '%s - Tobias Wust - Websites | Progressive Webapps | SAP ABAP',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Website von Tobias Wust' }
+      { hid: 'description', name: 'description', content: 'Tobias Wust - Websites | Progressive Webapps | SAP ABAP' },
+      { hid: 'keywords', name: 'keywords', content: 'vuejs, nuxt, javascript, abap, tobias, wust, pwa, progressive, webapp, html5, wordpress' }
     ],
+    htmlAttrs: {
+      lang: 'de'
+    },
     script: [
       /*{ src: 'sw-register.js' }*/
     ],
