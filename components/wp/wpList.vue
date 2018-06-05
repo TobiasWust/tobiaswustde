@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import wpPost from "~/components/wpPostExcerpt.vue";
+import wpPostExcerpt from "~/components/wp/wpPostExcerpt.vue";
 
 export default {
   name: "wpList",

@@ -74,16 +74,6 @@ export default {};
 </script>
 
 <style scoped>
-.product {
-  min-width: 300px;
-  width: 40%;
-  text-align: center;
-  padding: 0px 30px 30px 30px;
-  margin: 10px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 ul {
   padding: 0;
 }
@@ -93,15 +83,19 @@ ul {
   color: #f68714;
 }
 
-.productthump {
-  margin: auto;
+.product {
+  min-width: 300px;
+  width: 40%;
+  text-align: center;
+  padding: 0px 30px 30px 30px;
+  margin: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
 }
 
-.material {
-  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14),
-    0 2px 7px 0 rgba(0, 0, 0, 0.12), 0 5px 3px -5px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 2px 7px 0 rgba(0, 0, 0, 0.12),
-    0 5px 3px -5px rgba(0, 0, 0, 0.2);
+.productthump {
+  margin: auto;
 }
 
 .products {
