@@ -65,6 +65,7 @@ div {
 h1 {
   color: white;
   text-align: left;
+  font-size: 8vw;
 }
 
 h1 {

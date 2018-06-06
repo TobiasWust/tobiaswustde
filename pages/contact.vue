@@ -16,7 +16,6 @@
         <input class="form-button" type="submit" value="Senden" />
       </form>
       <span style="font-size:0.7em;">* Kennzeichnet Pflichtfelder</span>
-      <p>oder</p>
     </div>
 </template>
 
