@@ -76,12 +76,13 @@ a:hover {
   color: #3dba6a;
 }
 
+/*fix for mobile devices (sticky hover)*/
 @media (hover: none), (hover: on-demand) {
   svg:hover {
-    fill: inherit;
+    fill: #f68714;
   }
   a:hover {
-    color: inherit;
+    color: #f68714;
   }
 }
 
