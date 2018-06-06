@@ -2,6 +2,7 @@
   <div class="container">
     <h1 v-if="error.statusCode === 404">Seite nicht gefunden (404)</h1>
     <h1 v-else>Es ist ein Fehler aufgetreten ( {{ error.statusCode }} )</h1>
+    <hr>
     <p>Schau doch einfach bei meinen <nuxt-link to="/offer/">Angeboten</nuxt-link> vorbei</p>
     <p>oder nimm direkt mit mir <nuxt-link to="/contact/">Kontakt</nuxt-link> auf.</p>
   </div>

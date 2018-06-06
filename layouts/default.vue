@@ -18,9 +18,7 @@ import { mapState } from "vuex";
 
 export default {
   data() {
-    return {
-      show: true
-    };
+    return {};
   },
   components: {
     cookienotice,

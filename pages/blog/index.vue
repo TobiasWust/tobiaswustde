@@ -3,12 +3,13 @@
     <h1>Blog</h1>
     <hr>
         von blog.tobiaswust.de reingehackt.
-    <wpList />
+    <wpList :posts="posts" />
   </div>
 </template>
 
 <script>
 import wpList from "~/components/wp/wpList.vue";
+import axios from "axios";
 
 export default {
   head: {
@@ -16,6 +17,12 @@ export default {
   },
   components: {
     wpList
+  },
+  async asyncData() {
+    let { data } = await axios.get(
+      "https://blog.tobiaswust.de/wp-json/wp/v2/posts/"
+    );
+    return { posts: data };
   }
 };
 </script>
