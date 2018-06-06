@@ -17,6 +17,7 @@
     "vue-markdown": "^2.2.4"
   },
   "devDependencies": {
+    "@nuxtjs/sitemap": "^0.1.1",
     "babel-eslint": "^8.2.1",
     "eslint": "^4.15.0",
     "eslint-friendly-formatter": "^3.0.0",

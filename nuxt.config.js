@@ -28,7 +28,7 @@ module.exports = {
 
     ],
     script: [
-      { src: 'sw-register.js' }
+      { src: '/sw-register.js' }
     ],
   },
   /*pages for transition*/
@@ -73,5 +73,8 @@ module.exports = {
       },
       '/blog/sick'
     ]
-  }
+  },
+  modules: [
+    '@nuxtjs/sitemap'
+  ]
 }
