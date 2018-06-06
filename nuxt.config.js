@@ -4,7 +4,7 @@ module.exports = {
   TODO: FB OG, Structured Data, 
   */
   head: {
-    titleTemplate: '%s - Tobias Wust - Websites | Progressive Webapps | SAP ABAP',
+    titleTemplate: 'Tobias Wust - %s - Websites | Progressive Webapps | SAP ABAP',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
@@ -80,7 +80,6 @@ module.exports = {
   ],
   sitemap: { // todo: get the sitemap running for dynamic routes
     path: '/sitemap.xml',
-    //hostname: 'https://example.com',
     cacheTime: 1000 * 60 * 15,
     gzip: true,
     generate: true, // Enable me when using nuxt generate
