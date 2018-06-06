@@ -84,16 +84,16 @@ module.exports = {
     cacheTime: 1000 * 60 * 15,
     gzip: true,
     generate: true, // Enable me when using nuxt generate
-    async routes() {
-      try {
-        const res = await fetch("https://blog.tobiaswust.de/wp-json/wp/v2/posts/");
-        const posts = await res.json();
-        return posts.map((post) => {
-          return '/blog/' + post.id
-        })
-      } catch (e) {
-        console.log(e);
-      }
-    },
+    /*     async routes() {
+          try {
+            const res = await fetch("https://blog.tobiaswust.de/wp-json/wp/v2/posts/");
+            const posts = await res.json();
+            return posts.map((post) => {
+              return '/blog/' + post.id
+            })
+          } catch (e) {
+            console.log(e);
+          }
+        }, */
   }
 }
