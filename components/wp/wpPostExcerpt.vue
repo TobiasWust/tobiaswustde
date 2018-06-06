@@ -1,7 +1,7 @@
 <template>
   <div>
       <h2>{{ post.title.rendered }}</h2>
-      <nuxt-link :to="post.id + '/'">{{ post.id }}</nuxt-link>
+      <nuxt-link :to="post.slug + '/'">{{ post.slug }}</nuxt-link>
       <div v-html="post.excerpt.rendered"></div>
   </div>
 </template>

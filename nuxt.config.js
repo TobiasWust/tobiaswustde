@@ -65,7 +65,7 @@ module.exports = {
           const posts = await res.json();
           this.posts = posts;
           return posts.map((post) => {
-            return '/blog/' + post.id
+            return '/blog/' + post.slug
           })
         } catch (e) {
           console.log(e);

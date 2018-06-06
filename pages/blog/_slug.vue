@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{ $route.params.id }}
+    {{ $route.params.slug }}
   </div>
 </template>
 
@@ -10,3 +10,4 @@ export default {};
 
 <style scoped>
 </style>
+
