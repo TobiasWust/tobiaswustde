@@ -2,7 +2,6 @@
   <div>
     <h1>Blog</h1>
     <hr>
-        von blog.tobiaswust.de reingehackt.
     <wpList :posts="posts" />
   </div>
 </template>

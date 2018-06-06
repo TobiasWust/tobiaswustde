@@ -55,7 +55,7 @@ body {
 
 body {
   margin: 0;
-  font-family: "Roboto", "Open Sans", "sans-serif";
+  font-family: "Work Sans", "sans-serif";
   background-repeat: no-repeat;
   background-color: #111;
 
@@ -66,6 +66,13 @@ h1 {
   color: #111;
   text-align: center;
   margin: 0 0 0 0;
+}
+h2 {
+  color: #888;
+}
+h1,
+h2 {
+  font-family: "Vidaloka", "serif";
 }
 
 hr {

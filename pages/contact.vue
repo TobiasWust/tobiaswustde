@@ -4,7 +4,6 @@
       Kontakt
     </h1>
     <hr>
-    <div class="content">
       <form name="contact" action="/success/" method="POST" netlify>
         <input type="hidden" name="form-name" value="contact" />
         <label>Email*<input name="email" id="email" placeholder="Email" type="email" required /></label> 
@@ -16,9 +15,9 @@
         </label>
         <input class="form-button" type="submit" value="Senden" />
       </form>
-      <span style="font-size:0.7em">* Kennzeichnet Pflichtfelder</span>
+      <span style="font-size:0.7em;">* Kennzeichnet Pflichtfelder</span>
+      <p>oder</p>
     </div>
-  </div>
 </template>
 
 <script>
@@ -30,7 +29,7 @@ export default {
 </script>
 
 <style scoped>
-.contactpage {
+form {
   font-weight: bold;
 }
 
