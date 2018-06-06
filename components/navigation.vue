@@ -76,6 +76,15 @@ a:hover {
   color: #3dba6a;
 }
 
+@media (hover: none), (hover: on-demand) {
+  svg:hover {
+    fill: inherit;
+  }
+  a:hover {
+    color: inherit;
+  }
+}
+
 .icon-menu {
   margin: 1em 1em;
   height: 30px;
