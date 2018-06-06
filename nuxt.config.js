@@ -8,7 +8,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
-      { name: 'theme-color', content: '#3dba6a' },
+      { name: 'theme-color', content: '#111' },
       { name: 'robots', content: 'index,follow' },
       { name: 'googlebot', content: 'index,follow' },
       { hid: 'description', name: 'description', content: 'Tobias Wust - Websites | Progressive Webapps | SAP ABAP' },
@@ -18,9 +18,6 @@ module.exports = {
     htmlAttrs: {
       lang: 'de'
     },
-    script: [
-      /*{ src: 'sw-register.js' }*/
-    ],
     link: [
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -30,7 +27,9 @@ module.exports = {
       { rel: 'me', href: 'mailto:kontakt@tobiaswust.de' },
 
     ],
-
+    script: [
+      { src: 'sw-register.js' }
+    ],
   },
   /*pages for transition*/
   router: {
