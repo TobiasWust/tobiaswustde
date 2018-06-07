@@ -19,7 +19,7 @@
                         Wordpress
                     </li>
                 </ul>
-                <p>Danach kann ich dich bei deiner <strong>SEO</strong> (Optimierung für Suchmaschinen) unterstützen.</p>
+                <p>Danach kann ich dich bei deiner <strong>SEO</strong> (Suchmaschinen&shy;optimierung) unterstützen.</p>
             </div>
 
             <div id="pwa" class="product material">
