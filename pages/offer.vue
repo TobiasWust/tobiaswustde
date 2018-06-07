@@ -98,6 +98,10 @@ ul {
   background-color: #f7f7f7;
 }
 
+.product p {
+  text-align: justify;
+}
+
 .productthump {
   margin: auto;
 }

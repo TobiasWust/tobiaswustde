@@ -58,7 +58,6 @@ body {
   font-family: "Work Sans", "sans-serif";
   background-repeat: no-repeat;
   background-color: #111;
-  hyphens: auto;
   color: #999;
   font-size: 130%;
 }
