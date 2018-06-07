@@ -9,7 +9,7 @@
 import axios from "axios";
 
 export default {
-  async asyncData({ route }) {
+/*   async asyncData({ route }) {
     let { data } = await axios.get(
       `https://blog.tobiaswust.de/wp-json/wp/v2/posts/?slug=${
         route.params.slug
@@ -21,7 +21,7 @@ export default {
       }`
     );
     return { post: data };
-  }
+  } */
 };
 </script>
 

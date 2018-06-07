@@ -18,10 +18,10 @@ export default {
     wpList
   },
   async asyncData() {
-    let { data } = await axios.get(
+    /* let { data } = await axios.get(
       "https://blog.tobiaswust.de/wp-json/wp/v2/posts/"
     );
-    return { posts: data };
+    return { posts: data }; */
   }
 };
 </script>

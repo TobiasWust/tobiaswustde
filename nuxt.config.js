@@ -60,7 +60,7 @@ module.exports = {
   },
   generate: {
     routes: [
-      async function () {
+/*       async function () {
         try {
           const res = await fetch("https://blog.tobiaswust.de/wp-json/wp/v2/posts/");
           const posts = await res.json();
@@ -71,7 +71,7 @@ module.exports = {
         } catch (e) {
           console.log(e);
         }
-      },
+      }, */
       '/blog/sick'
     ],
     fallback: 'true'
