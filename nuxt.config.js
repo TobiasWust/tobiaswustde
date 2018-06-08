@@ -60,18 +60,18 @@ module.exports = {
   },
   generate: {
     routes: [
-/*       async function () {
-        try {
-          const res = await fetch("https://blog.tobiaswust.de/wp-json/wp/v2/posts/");
-          const posts = await res.json();
-          this.posts = posts;
-          return posts.map((post) => {
-            return '/blog/' + post.slug
-          })
-        } catch (e) {
-          console.log(e);
-        }
-      }, */
+      /*       async function () {
+              try {
+                const res = await fetch("https://blog.tobiaswust.de/wp-json/wp/v2/posts/");
+                const posts = await res.json();
+                this.posts = posts;
+                return posts.map((post) => {
+                  return '/blog/' + post.slug
+                })
+              } catch (e) {
+                console.log(e);
+              }
+            }, */
       '/blog/sick'
     ],
     fallback: 'true'
@@ -81,6 +81,7 @@ module.exports = {
   ],
   sitemap: { // todo: get the sitemap running for dynamic routes
     path: '/sitemap.xml',
+    hostname: 'https://www.tobiaswust.de',
     cacheTime: 1000 * 60 * 15,
     gzip: true,
     generate: true, // Enable me when using nuxt generate
