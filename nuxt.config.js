@@ -29,7 +29,7 @@ module.exports = {
 
     ],
     script: [
-      { src: '/sw-register.js' }
+      //{ src: '/sw-register.js' }
     ],
   },
   /*pages for transition*/
