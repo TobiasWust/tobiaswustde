@@ -19,7 +19,7 @@
     <h2>Lebenslauf</h2>
     <h3>Berufserfahrung</h3>
     <ul>
-      <li>03/2018 - heute <br><strong>Freelance Developer</strong><br>Webentwicklung, Games, SAP ABAP</li>    
+      <li>03/2018 - heute <br><strong>Freelance Developer</strong><br>Websites, Webapps, Games, SAP ABAP</li>
       <li>07/2016 - 06/2018 <br><strong>Remedyne GmbH</strong><br>SAP Anwendungsentwicklung, SAP Anwendungsübersetzung</li>
       <li>09/2013 - 07/2017 <br><strong>Landeshauptstadt Hannover</strong><br>SAP Administration, Anwendungsentwicklung und Modulbetreuung: Berechtigungen, CML, Geschäftspartner</li>
       <li>06/2012 - 09/2012 <br><strong>Landeshauptstadt Hannover</strong><br>Datenbankadministration MySQL, MSSQL</li>
@@ -32,7 +32,7 @@
       <li>bis 07/2009 <br><strong>Gymnasium Langenhagen</strong><br>Abitur 2,8</li>
     </ul>
 
-    <a href="">Mein ganzer Lebenslauf als PDF</a>
+    <a href="/Tobias_Wust_Lebenslauf_2018_06.pdf">Mein ganzer Lebenslauf als PDF</a>
 
     <h3>Finde mich</h3>
     <ul>
