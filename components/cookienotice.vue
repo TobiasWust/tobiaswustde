@@ -1,7 +1,9 @@
 <template>
 <transition name="fade">
   <div v-if="cookies">
-    Diese Website verwendet Cookies! Okay für dich? <button @click="cookies = !cookies">Okay</button>
+    <span>Diese Website verwendet Cookies!</span>
+    <span><nuxt-link to="/privacy/">Mehr erfahren</nuxt-link></span>
+    <span><button @click="cookies = !cookies">Okay</button></span>
   </div>
 </transition>
 </template>
@@ -19,13 +21,16 @@ export default {
 <style scoped>
 div {
   position: fixed;
-  background-color: #111;
+  background-color: rgba(17, 17, 17, 0.8);
   color: white;
   text-align: center;
   bottom: 30px;
   left: 30px;
   right: 30px;
   padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 button {
@@ -33,6 +38,12 @@ button {
   border: none;
   color: white;
   font-size: 120%;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+button:hover {
+  background-color: #3dba6a;
 }
 
 .fade-leave-active {
