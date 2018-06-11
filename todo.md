@@ -1,8 +1,9 @@
 # Todo
 
-*Head fertig machen
-*wirklich Wordpress als Blogbackend?
-*sitemap fertig machen
-*service worker (pwa-funktion) fertig machen
-*ladegeschwindigkeit Hintergrundbild
-*menü hover problem auf mobile (y)
+*user wp as backend fpr blog?
+*service worker (pwa-function)
+*mobile sandwich menu?
+*homepage background different sizes
+*i18n
+*cookie notice
+*reorder menu?

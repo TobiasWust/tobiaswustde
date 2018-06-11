@@ -1,7 +1,9 @@
 # tobiaswust
 
 > Website von Tobias Wust
-Gebaut mit nuxt, gehostet auf netlify <3
+Built with nuxt and love
+hosted on netlify <3
+<https://www.tobiaswust.de>
 
 ## Build Setup
 
