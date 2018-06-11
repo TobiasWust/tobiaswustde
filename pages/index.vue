@@ -26,6 +26,11 @@ export default {
   overflow-x: hidden;
   background-color: #f68714;
   align-items: center;
+  transition: all 1s;
+}
+
+.slider:hover {
+  background-color: #3dba6a;
 }
 
 @keyframes slide {
