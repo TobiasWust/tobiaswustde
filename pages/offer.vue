@@ -96,6 +96,7 @@ ul {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background-color: #f7f7f7;
+  transition: all 0.3s;
 }
 
 .product p {
@@ -114,5 +115,12 @@ ul {
   flex-wrap: wrap;
   -ms-flex-pack: distribute;
   justify-content: space-around;
+}
+
+.product:hover {
+  transform: scale(1.1);
+
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.28), 0 4px 14px 0 rgba(0, 0, 0, 0.24),
+    0 10px 6px -10px rgba(0, 0, 0, 0.4);
 }
 </style>
