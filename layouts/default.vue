@@ -5,7 +5,7 @@
           <nuxt/>
       </article>
     <footer class="footer"><wu_footer/></footer>
-    <!-- <cookienotice /> -->
+    <cookienotice />
   </div>
 </template>
 
