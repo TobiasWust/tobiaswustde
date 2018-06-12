@@ -19,8 +19,8 @@ module.exports = {
       lang: 'de'
     },
     link: [
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Vidaloka', lazyload },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Work+Sans', lazyload },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Vidaloka' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Work+Sans' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'manifest', href: '/manifest.json' },
       { rel: 'author', href: '/humans.txt' },
