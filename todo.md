@@ -5,5 +5,4 @@
 *mobile sandwich menu?
 *homepage background different sizes
 *i18n
-*cookie notice
 *reorder menu?

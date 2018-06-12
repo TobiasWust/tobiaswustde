@@ -12,13 +12,13 @@
       </g>
     </svg>
 </nuxt-link>
-    <ul class="navigation">
-      <!-- <li><nuxt-link exact to="/">HOME</nuxt-link></li> -->
-      <li><nuxt-link to="/about/">ÜBER MICH</nuxt-link></li>
-      <!-- <li><nuxt-link to="/blog/">BLOG</nuxt-link></li> -->
-      <li><nuxt-link to="/offer/">ANGEBOT</nuxt-link></li>
-      <li><nuxt-link to="/contact/">KONTAKT</nuxt-link></li>
-    </ul>
+ <transition-group name="flip-list" tag="ul" class="navigation">
+    <!-- <ul class="navigation"> -->
+      <li v-for="(menuitem, index) in menu" v-bind:key="menuitem.text" v-on:click="reorder(index)">
+        <nuxt-link :to="menuitem.url">{{ menuitem.text }}</nuxt-link>
+      </li>       
+    <!-- </ul> -->
+ </transition-group>
     <!-- <img class="icon-menu" src="~/assets/img/icon-menu.svg"> -->
   </nav>
 </template>
@@ -27,6 +27,22 @@
 import { mapState } from "vuex";
 
 export default {
+  data() {
+    return {
+      menu: [
+        { url: "/about/", text: "ÜBER MICH" },
+        //{ url: "/blog/", text: "BLOG" },
+        { url: "/offer/", text: "ANGEBOT" },
+        { url: "/contact/", text: "KONTAKT" }
+      ]
+    };
+  },
+  methods: {
+    reorder: function(index) {
+      this.menu.unshift(this.menu.splice(index, 1)[0]);
+      //this.menu.reverse();
+    }
+  },
   computed: mapState(["page"])
   //  :class="{ 'active' : (page === 'index') }"
 };
