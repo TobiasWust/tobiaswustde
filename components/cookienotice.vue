@@ -3,7 +3,7 @@
   <div v-if="cookies">
     <span>Diese Website verwendet Cookies!</span>
     <span><nuxt-link to="/privacy/">Mehr erfahren</nuxt-link></span>
-    <span><button @click="cookies = !cookies">Okay</button></span>
+    <span><button @click="setCookie()">Okay</button></span>
   </div>
 </transition>
 </template>
@@ -14,6 +14,20 @@ export default {
     return {
       cookies: true
     };
+  },
+  methods: {
+    setCookie: function() {
+      document.cookie = "cookienotice=accepted";
+      this.cookies = !this.cookies;
+    },
+    getCookie: function() {
+      if (document.cookie.includes("cookienotice=accepted")) {
+        this.cookies = false;
+      }
+    }
+  },
+  mounted: function() {
+    this.getCookie();
   }
 };
 </script>
