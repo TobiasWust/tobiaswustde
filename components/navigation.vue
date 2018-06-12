@@ -40,7 +40,6 @@ export default {
   methods: {
     reorder: function(index) {
       this.menu.unshift(this.menu.splice(index, 1)[0]);
-      //this.menu.reverse();
     }
   },
   computed: mapState(["page"])
