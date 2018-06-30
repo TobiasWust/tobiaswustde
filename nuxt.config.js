@@ -25,8 +25,6 @@ module.exports = {
       { rel: 'manifest', href: '/manifest.json' },
       { rel: 'author', href: '/humans.txt' },
       { rel: 'me', href: 'https://github.com/TobiasWust', type: 'text/html' },
-      { rel: 'me', href: 'mailto:webmaster@tobiaswust.de' },
-
     ],
     script: [
       //{ src: '/sw-register.js' }
@@ -73,8 +71,7 @@ module.exports = {
               }
             }, */
       '/blog/sick'
-    ],
-    fallback: 'true'
+    ]
   },
   modules: [
     '@nuxtjs/sitemap'
