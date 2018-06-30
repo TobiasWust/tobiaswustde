@@ -1,6 +1,5 @@
 # Todo
 
-*Meta Descriptions
 *Google Fonts local
 *structured data
 *FB OG

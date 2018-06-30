@@ -1,7 +1,6 @@
 module.exports = {
   /*
   ** Headers of the page
-  TODO: FB OG, Structured Data, 
   */
   head: {
     titleTemplate: 'Tobias Wust - %s - Websites | Progressive Webapps | SAP ABAP',
@@ -19,8 +18,8 @@ module.exports = {
       lang: 'de'
     },
     link: [
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Vidaloka' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Work+Sans' },
+      //{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Vidaloka' },
+      //{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Work+Sans' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       //{ rel: 'manifest', href: '/manifest.json' },
       { rel: 'author', href: '/humans.txt' },
@@ -30,6 +29,9 @@ module.exports = {
       //{ src: '/sw-register.js' }
     ],
   },
+  css: [
+    '~/assets/css/main.css',
+  ],
   /*pages for transition*/
   router: {
     middleware: 'pages',
