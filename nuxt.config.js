@@ -71,7 +71,10 @@ module.exports = {
               }
             }, */
       '/blog/sick'
-    ]
+    ],
+    generate: {
+      fallback: "404.html"
+    },
   },
   modules: [
     '@nuxtjs/sitemap'
