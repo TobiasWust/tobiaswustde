@@ -22,7 +22,15 @@
 <script>
 export default {
   head: {
-    title: "Kontakt"
+    title: "Kontakt",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Hi, ich bin Tobias Wust. Ich bin ein reisender Fullstack Entwickler. Nimm doch Kontakt mit mir auf!"
+      }
+    ]
   }
 };
 </script>

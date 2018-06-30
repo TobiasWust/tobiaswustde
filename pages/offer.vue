@@ -10,7 +10,7 @@
                 <p>Ich erstelle für dich eine <strong>Internetseite</strong>. Dabei wähle ich anhand deiner Anforderungen die für dich beste Technologie aus. Du musst selbst davon keine Ahnung haben aber ich arbeite mit:</p>
                 <ul>
                     <li>
-                        HTML5, CSS3, JS
+                        HTML5, CSS3, JS (ES6)
                     </li>
                     <li>
                         Vue.js
@@ -72,7 +72,15 @@
 <script>
 export default {
   head: {
-    title: "Angebot"
+    title: "Angebot",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Hi, ich bin Tobias Wust. Ich bin ein reisender Fullstack Entwickler. Ich mache für dich Websites mit Wordpress oder Vue, Progressive Webapps mit Vue oder Entwickle in ABAP für dein SAP System."
+      }
+    ]
   }
 };
 </script>

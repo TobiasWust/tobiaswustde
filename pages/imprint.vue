@@ -20,7 +20,15 @@
 <script>
 export default {
   head: {
-    title: "Impressum"
+    title: "Impressum",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Hi, ich bin Tobias Wust. Ich bin ein reisender Fullstack Entwickler. Das hier ist mein Impressum."
+      }
+    ]
   }
 };
 </script>

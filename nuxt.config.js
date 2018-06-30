@@ -22,7 +22,7 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Vidaloka' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Work+Sans' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'manifest', href: '/manifest.json' },
+      //{ rel: 'manifest', href: '/manifest.json' },
       { rel: 'author', href: '/humans.txt' },
       { rel: 'me', href: 'https://github.com/TobiasWust', type: 'text/html' },
     ],

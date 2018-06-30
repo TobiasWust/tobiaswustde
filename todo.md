@@ -1,6 +1,5 @@
 # Todo
 
-*404 on netlify
 *Meta Descriptions
 *Google Fonts local
 *structured data

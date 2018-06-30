@@ -14,7 +14,15 @@
 <script>
 export default {
   head: {
-    title: "Home"
+    title: "Home",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Hi, ich bin Tobias Wust. Ich bin Fullstack Developer und mache Websites und Progressive Webapps mit Vue und Wordpress. Außerdem programmiere ich mit SAP ABAP."
+      }
+    ]
   }
 };
 </script>

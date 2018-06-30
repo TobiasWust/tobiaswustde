@@ -48,7 +48,15 @@
 <script>
 export default {
   head: {
-    title: "Über Mich"
+    title: "Über Mich",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Hi, ich bin Tobias Wust - ein reisender Entwickler. Das bedeutet, dass ich in meinem Auto lebe und unterwegs als Fullstack Developer arbeite. Hier findest du meinen Lebenslauf."
+      }
+    ]
   }
 };
 </script>
