@@ -1,6 +1,5 @@
 # Todo
 
-*Google Fonts local
 *structured data
 *FB OG
 *i18n
