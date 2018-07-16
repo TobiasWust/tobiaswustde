@@ -77,7 +77,8 @@ module.exports = {
     fallback: "404.html"
   },
   modules: [
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxtjs/pwa'
   ],
   sitemap: { // todo: get the sitemap running for dynamic routes
     path: '/sitemap.xml',
@@ -96,5 +97,27 @@ module.exports = {
             console.log(e);
           }
         }, */
+  },
+  manifest:
+  {
+    "dir": "ltr",
+    "lang": "de",
+    "name": "Tobias Wust",
+    "scope": "/",
+    "display": "browser",
+    "start_url": "/",
+    "short_name": "Wust",
+    "theme_color": "transparent",
+    "description": "Website von Tobias Wust",
+    "orientation": "any",
+    "background_color": "#111",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "16x16"
+      }
+    ]
   }
 }
