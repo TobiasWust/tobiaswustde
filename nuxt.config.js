@@ -104,7 +104,7 @@ module.exports = {
     "lang": "de",
     "name": "Tobias Wust",
     "scope": "/",
-    "display": "browser",
+    "display": "minimal-ui",
     "start_url": "/",
     "short_name": "Wust",
     "theme_color": "transparent",
