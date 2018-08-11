@@ -1,7 +1,6 @@
 # Todo
 
 *structured data
-*service worker (pwa-function)
 *FB OG
 *i18n
 *mobile sandwich menu?

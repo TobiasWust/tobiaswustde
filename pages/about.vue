@@ -39,6 +39,7 @@
       <li>Privater Blog: <a href="https://wust.me">wust.me</a></li>
       <li>Xing: <a href="https://www.xing.com/profile/Tobias_Wust">xing.com/profile/Tobias_Wust</a></li>
       <li>Github: <a href="https://github.com/TobiasWust">github.com/TobiasWust</a></li>
+      <li>Codepen: <a href="https://codepen.io/tobiaswust/">codepen.io/tobiaswust</a></li>
       <li>LinkedIn: <a href="https://www.linkedin.com/in/tobias-wust">linkedin.com/in/tobias-wust</a></li>      
     </ul>
 
