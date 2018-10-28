@@ -12,7 +12,7 @@
 export default {
   data() {
     return {
-      cookies: true
+      cookies: false;
     };
   },
   methods: {
@@ -23,7 +23,7 @@ export default {
     getCookie: function() {
       if (document.cookie.includes("cookienotice=accepted")) {
         this.cookies = false;
-      }
+      } else this.cookies = true;    
     }
   },
   mounted: function() {
