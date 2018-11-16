@@ -4,9 +4,12 @@
       Kontakt
     </h1>
     <hr>
-      <form name="contact" action="/success/" method="POST" netlify>
+      <form name="contact" action="/success/" method="POST" netlify-honeypot="bot-field" netlify>
         <input type="hidden" name="form-name" value="contact" />
         <label>Email*<input name="email" id="email" placeholder="Email" type="email" required /></label> 
+        <p style="display:none">
+          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+        </p>
         <label>Name<input name="name" id="name" placeholder="Name" /></label>               
         <label>Nachricht<textarea class="form-field" name="message" id="message" rows="6" placeholder="Deine Nachricht"></textarea></label>                     
         <label class="container">Ich akzeptiere die <nuxt-link to="/privacy/">Datenschutzbestimmungen</nuxt-link>*
