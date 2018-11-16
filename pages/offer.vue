@@ -53,11 +53,11 @@
                 </ul>
             </div> -->
 
-            <div id="abap" class="product material">
+            <!-- <div id="abap" class="product material">
                 <h2>SAP ABAP</h2>
                 <img class="productthump" src="~/assets/img/sap.svg" alt="">
                 <p> Inhouse SAP-Programmierer lohnen sich nicht für dein Unternehmen und ganze SAP Berater sind zu teuer für eine Aufgabe? Ich bringe einige Jahre Erfahrung in der ABAP Entwicklung mit und zusammen mit dir kann ich spezielle Reports für dein SAP-System erstellen. </p>
-            </div>
+            </div> -->
 
             <!-- <div class="product material">
                 <h2>Außerdem</h2>
