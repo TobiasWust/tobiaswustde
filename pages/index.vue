@@ -6,7 +6,6 @@
     <span class="slider">
       <span class="slide">Websites</span>
       <span class="slide">Progressive Webapps</span>
-      <span class="slide">SAP ABAP</span>
     </span></nuxt-link></p>
 </div>
 </template>
@@ -43,16 +42,12 @@ export default {
 
 @keyframes slide {
   0%,
-  20% {
+  40% {
     transform: translateX(0px);
   }
-  40%,
-  60% {
-    transform: translateX(-200px);
-  }
-  80%,
+  60%,
   100% {
-    transform: translateX(-400px);
+    transform: translateX(-200px);
   }
 }
 
