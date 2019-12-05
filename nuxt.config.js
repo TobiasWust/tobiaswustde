@@ -10,8 +10,8 @@ module.exports = {
       { name: 'theme-color', content: '#111' },
       { name: 'robots', content: 'index,follow' },
       { name: 'googlebot', content: 'index,follow' },
-      { hid: 'description', name: 'description', content: 'Tobias Wust - Websites | Progressive Webapps | SAP ABAP' },
-      { hid: 'keywords', name: 'keywords', content: 'vuejs, nuxt, javascript, abap, tobias, wust, pwa, progressive, webapp, html5, wordpress' },
+      { hid: 'description', name: 'description', content: 'Wordpress Beratung | Fullstack Entwicklung | MEVN' },
+      { hid: 'keywords', name: 'keywords', content: 'vuejs, nuxt, javascript, mevn, fullstack, beratung, tobias, wust, pwa, progressive, webapp, html5, wordpress' },
 
     ],
     htmlAttrs: {
