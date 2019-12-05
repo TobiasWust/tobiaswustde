@@ -253,11 +253,19 @@
 </template>
 
 <script>
-  export default {
-    head: {
-      title: "Datenschutzerklärung"
-    }
-  };
+export default {
+  head: {
+    title: "Datenschutzerklärung",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Hi, ich bin Tobias Wust. Ich bin ein reisender Fullstack Entwickler. Hier findest du meine Datenschutzerklärung."
+      }
+    ]
+  }
+};
 </script>
 
 <style scoped>

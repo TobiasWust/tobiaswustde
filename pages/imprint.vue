@@ -12,7 +12,7 @@
     <b>Fax:</b> 0511 5152141111<br>
     <b>Mail:</b> Webmaster (at) tobiaswust.de<br>
     <b>Kontaktformular: </b> <nuxt-link to="/contact/">Meine bevorzugte Methode</nuxt-link> <br>
-    <b>USt-IdNr.:</b> { USt-IdNr } (kommt bald – das Finanzamt pennt)</p>
+    <b>USt-IdNr.:</b> DE317980584</p>
 
   </div>
 </template>
@@ -20,7 +20,15 @@
 <script>
 export default {
   head: {
-    title: "Impressum"
+    title: "Impressum",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Hi, ich bin Tobias Wust. Ich bin ein reisender Fullstack Entwickler. Das hier ist mein Impressum."
+      }
+    ]
   }
 };
 </script>

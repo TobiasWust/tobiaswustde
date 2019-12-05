@@ -1,8 +1,8 @@
 # Todo
 
-*user wp as backend fpr blog?
-*service worker (pwa-function)
-*mobile sandwich menu?
-*homepage background different sizes
+*structured data
+*FB OG
 *i18n
-*reorder menu?
+*mobile sandwich menu?
+*use wp as backend for blog?
+*homepage background different sizes

@@ -5,6 +5,8 @@
     <hr>
     <p>Schau doch einfach bei meinen <nuxt-link to="/offer/">Angeboten</nuxt-link> vorbei</p>
     <p>oder nimm direkt mit mir <nuxt-link to="/contact/">Kontakt</nuxt-link> auf.</p>
+    <hr>
+    <p>Vielleicht wolltest du auch meinen privaten Blog lesen? Der ist jetzt auf <a href="https://wust.me">https://wust.me</a>.</p>
   </div>
 </template>
 

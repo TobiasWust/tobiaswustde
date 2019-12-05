@@ -9,7 +9,15 @@
 <script>
 export default {
   head: {
-    title: "Vielen Dank!"
+    title: "Vielen Dank!",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Hi, ich bin Tobias Wust. Ich finde diese Seite hier braucht keine Meta Description ;)"
+      }
+    ]
   }
 };
 </script>

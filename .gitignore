@@ -71,6 +71,9 @@ jspm_packages
 # Yarn Integrity file
 .yarn-integrity
 
+#service worker
+sw.*
+
 # Nuxt build
 .nuxt
 

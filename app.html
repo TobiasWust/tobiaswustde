@@ -3,11 +3,6 @@
 
 <head>
   {{ HEAD }}
-</head>
-
-<body {{ BODY_ATTRS }}>
-  {{ APP }}
-
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-35403222-1"></script>
   <script>
@@ -17,7 +12,10 @@
 
     gtag('config', 'UA-35403222-1', { 'anonymize_ip': true });
   </script>
+</head>
 
+<body {{ BODY_ATTRS }}>
+  {{ APP }}
 </body>
 
 </html>

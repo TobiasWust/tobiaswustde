@@ -4,9 +4,10 @@
       Kontakt
     </h1>
     <hr>
-      <form name="contact" action="/success/" method="POST" netlify>
+      <form name="contact" action="/success/" method="POST" netlify-honeypot="bot-field" netlify>
         <input type="hidden" name="form-name" value="contact" />
-        <label>Email*<input name="email" id="email" placeholder="Email" type="email" required /></label> 
+        <label>Email*<input name="email" id="email" placeholder="Email" type="email" required /></label>         
+        <label style="position: absolute;z-index: -1;">nicht ausfüllen: <input name="bot-field" /></label>        
         <label>Name<input name="name" id="name" placeholder="Name" /></label>               
         <label>Nachricht<textarea class="form-field" name="message" id="message" rows="6" placeholder="Deine Nachricht"></textarea></label>                     
         <label class="container">Ich akzeptiere die <nuxt-link to="/privacy/">Datenschutzbestimmungen</nuxt-link>*
@@ -22,7 +23,15 @@
 <script>
 export default {
   head: {
-    title: "Kontakt"
+    title: "Kontakt",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Hi, ich bin Tobias Wust. Ich bin ein reisender Fullstack Entwickler. Nimm doch Kontakt mit mir auf!"
+      }
+    ]
   }
 };
 </script>
