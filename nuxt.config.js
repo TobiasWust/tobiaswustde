@@ -3,7 +3,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    titleTemplate: 'Tobias Wust - %s - Websites | Progressive Webapps | SAP ABAP',
+    titleTemplate: 'Tobias Wust - %s - Wordpress Beratung | Fullstack Entwicklung | MEVN',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
