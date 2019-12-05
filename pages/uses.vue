@@ -39,7 +39,7 @@
       <li>Als <strong>Texteditor</strong> Benutze ich <a href="https://code.visualstudio.com/">VSCode</a> mit dem <strong>Theme</strong> Cobalt2 und der <strong>Schriftart </strong> <a href="https://github.com/source-foundry/Hack">Hack</a></li>
       <li><a href="https://hyper.is/">Hyper</a> ist mein <strong>Terminal</strong>. Dadrin startet bei mir im standard WSL mit zsh. Angereichert mit <a href="http://ohmyz.sh/">Oh my zsh</a>. Das hat das Theme <a href="https://github.com/romkatv/powerlevel10k">Powerline10k</a></li>
       <li>Ich benutz <strong>Docker</strong> für Windows, mit Daemon für mein WSL</li>
-      <li>Andere Programme dich benutze sind: Postman, Filezille und Gitkraken.</li>
+      <li>Andere Programme, die ich benutze sind: Postman, Filezille und Gitkraken.</li>
     </ul>
   </div>
 </template>

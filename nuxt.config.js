@@ -72,7 +72,7 @@ module.exports = {
                 console.log(e);
               }
             }, */
-      '/blog/sick'
+      // '/blog/sick'
     ],
     fallback: "404.html"
   },
