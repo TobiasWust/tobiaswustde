@@ -14,9 +14,7 @@
   },
   "dependencies": {
     "axios": "^0.18.1",
-    "markdown-it": "^10.0.0",
-    "nuxt": "^1.0.0",
-    "vue-markdown": "^2.2.4"
+    "nuxt": "^1.0.0"
   },
   "devDependencies": {
     "@nuxtjs/pwa": "^2.0.8",

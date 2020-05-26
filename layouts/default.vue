@@ -1,10 +1,14 @@
 <template>
   <div class="wrapper">
-    <header class="header"><navigation/></header>
-      <article class="content"  :class="{ 'contentbg' : (page !== 'index') }">      
-          <nuxt/>
-      </article>
-    <footer class="footer"><wu_footer/></footer>
+    <header class="header">
+      <navigation />
+    </header>
+    <article class="content" :class="{ 'contentbg' : (page !== 'index') }">
+      <nuxt />
+    </article>
+    <footer class="footer">
+      <wu_footer />
+    </footer>
     <cookienotice />
   </div>
 </template>
