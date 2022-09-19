@@ -6,7 +6,7 @@
     <p>Mein Name ist Tobias Wust. Ich bin ein dauerreisender Entwickler.</p>
     <!-- <img style="float: right; margin: 2em;" src="~/assets/img/serioesesfoto.jpg"> -->
     <img style="float: right; margin: 2em;" src="https://res.cloudinary.com/tobiaswust/image/upload/c_scale,e_improve,f_auto,q_auto:good,r_21,w_250/v1527682175/tobiaswust.de/Bewerbungsfoto.jpg">
-    
+
     <h2>Was bedeutet es, ein reisender Entwickler zu sein?</h2>
     <p>Für mich bedeutet es vor allem die Freiheit immer mit meinem Laptop unterwegs zu sein und zu arbeiten wann und wo es mir passt. Ich muss nicht mit Anzug ins Büro und kann sein wer ich gerne bin. Ich begegne dir auf freundschaftliche Art und halte nichts vom "Sie" – dafür bin ich ein Befürworter von langer Zusammenarbeit und bleibe auch gerne mit dir in Kontakt, wenn wir gerade keine gemeinsamen Projekte haben.</p>
     <p>Für dich bedeutet das, dass du in mir einen stets gut gelaunten und motivierten Arbeitspartner findest, der Kunden nicht als Massenware sieht und jedes Problem individuell angeht. Es bedeutet aber auch, dass ich manchmal auf einem Berg ohne Internetverbindung bin.</p>
@@ -27,12 +27,12 @@
 
     <h3>Akademische Ausbildung</h3>
     <ul>
-      <li>11/2015 - 02/2017 <br><strong>Online-Schule für Gestaltung</strong><br>Fernstudium Grafikdesign</li>    
+      <li>11/2015 - 02/2017 <br><strong>Online-Schule für Gestaltung</strong><br>Fernstudium Grafikdesign</li>
       <li>08/2009 - 08/2012 <br><strong>Leibniz Fachhochschule</strong><br>B.Sc. Wirtschaftsinformatik 2,3</li>
       <li>bis 07/2009 <br><strong>Gymnasium Langenhagen</strong><br>Abitur 2,8</li>
     </ul>
 
-    <a href="/Tobias_Wust_Lebenslauf_2018_06.pdf">Mein ganzer Lebenslauf als PDF</a>
+    Meinen ganzen Lebenslauf gibt es auf<a href="https://wust.dev">wust.dev</a>
 
     <h3>Finde mich</h3>
     <ul>
@@ -40,7 +40,7 @@
       <li>Xing: <a href="https://www.xing.com/profile/Tobias_Wust">xing.com/profile/Tobias_Wust</a></li>
       <li>Github: <a href="https://github.com/TobiasWust">github.com/TobiasWust</a></li>
       <li>Codepen: <a href="https://codepen.io/tobiaswust/">codepen.io/tobiaswust</a></li>
-      <li>LinkedIn: <a href="https://www.linkedin.com/in/tobias-wust">linkedin.com/in/tobias-wust</a></li>      
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/tobias-wust">linkedin.com/in/tobias-wust</a></li>
     </ul>
 
   </div>
