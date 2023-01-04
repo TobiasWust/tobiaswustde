@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "nuxt": "^1.0.0",
+    "nuxt": "^3.0.0",
     "vue-markdown": "^2.2.4"
   },
   "devDependencies": {
